@@ -7,7 +7,7 @@
 | **NY 8:30 Open**    |            |             |               |              |            |
 | **Weekly EQ**       |            |             |               |              |            |
 | **Rolling EQ**      |            |             |               |              |            |
-| **Rolling ADR**     |            |             |               |              |            |
+| **Rolling ADR**     | 391        |             |               |              |            |
 | **NWOGH**           |            |             |               |              |            |
 | **NWOGL**           |            |             |               |              |            |
 | **NDOGH**           |            |             |               |              |            |
