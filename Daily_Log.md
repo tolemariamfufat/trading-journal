@@ -1,1 +1,0 @@
-USTECH Trading Journal Started
