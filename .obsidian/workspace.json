@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Templates/Daily Trading Template.md",
+                "file": "Journal/Daily/01-02-2026.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Daily Trading Template"
+              "title": "01-02-2026"
             }
           }
         ],
@@ -211,9 +211,10 @@
   },
   "active": "1035bc87f2e00951",
   "lastOpenFiles": [
-    "Levels and Adr/Weekly Price Level Table.md",
-    "Templates/Daily Trading Template.md",
     "Levels and Adr/Rolling_ADR_MASTER_Feb_Week_1.md",
+    "Journal/Daily/01-02-2026.md",
+    "Templates/Daily Trading Template.md",
+    "Levels and Adr/Weekly Price Level Table.md",
     "Levels and Adr",
     "Daily_Log.md",
     "Templates",
