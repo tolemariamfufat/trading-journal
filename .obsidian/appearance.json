@@ -2,5 +2,6 @@
   "theme": "moonstone",
   "textFontFamily": "Garamond",
   "interfaceFontFamily": "Inter",
-  "accentColor": ""
+  "accentColor": "",
+  "monospaceFontFamily": "Courier"
 }
