@@ -3,5 +3,6 @@
   "textFontFamily": "Garamond",
   "interfaceFontFamily": "Inter",
   "accentColor": "",
-  "monospaceFontFamily": "Courier"
+  "monospaceFontFamily": "Courier",
+  "cssTheme": "AnuPpuccin"
 }

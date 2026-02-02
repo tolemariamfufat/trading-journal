@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Levels and Adr/Weekly Price Level Table.md",
+                "file": "Levels and Adr/930_Opening_Range_Gap.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Weekly Price Level Table"
+              "title": "930_Opening_Range_Gap"
             }
           }
         ]
@@ -165,13 +165,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Levels and Adr/Weekly Price Level Table.md",
+                "file": "Levels and Adr/930_Opening_Range_Gap.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Weekly Price Level Table"
+              "title": "Outline of 930_Opening_Range_Gap"
             }
           },
           {
@@ -205,14 +205,14 @@
       "file-tree-alternative:File Tree Alternative Plugin": false
     }
   },
-  "active": "842a43a95fb7b4c2",
+  "active": "f5e8325d32d1d857",
   "lastOpenFiles": [
-    "Levels and Adr/Rolling_ADR_MASTER_Feb_Week_1.md",
-    "Levels and Adr/New_Week_Opening_Gaps.md",
     "Levels and Adr/New_Day_Opening_Gaps.md",
-    "Levels and Adr/930_Opening_Range_Gap.md",
+    "Levels and Adr/New_Week_Opening_Gaps.md",
     "Levels and Adr/Weekly Price Level Table.md",
+    "Levels and Adr/930_Opening_Range_Gap.md",
     "Journal/Daily/02-02-2026.md",
+    "Levels and Adr/Rolling_ADR_MASTER_Feb_Week_1.md",
     "Templates/Daily Trading Template.md",
     "Journal/Daily/01-02-2026.md",
     "Journal/Daily/Untitled.md",
