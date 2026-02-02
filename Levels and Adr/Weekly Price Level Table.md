@@ -2,17 +2,11 @@
 
 | **Reference Level** | **Monday** | **Tuesday** | **Wednesday** | **Thursday** | **Friday** |
 | ------------------- | ---------- | ----------- | ------------- | ------------ | ---------- |
-| **Midnight Open**   |            |             |               |              |            |
+| **Midnight Open**   | 25245      |             |               |              |            |
 | **ADR High**        |            |             |               |              |            |
 | **ADR Low**         |            |             |               |              |            |
-| **London Open**     |            |             |               |              |            |
+| **London Open**     | 25137      |             |               |              |            |
 | **NY 8:30 Open**    |            |             |               |              |            |
-| **Weekly EQ**       |            |             |               |              |            |
+| **Weekly EQ**       | 25807      |             |               |              |            |
 | **Rolling EQ**      |            |             |               |              |            |
 | **Rolling ADR**     | 391        |             |               |              |            |
-| **NWOGH**           |            |             |               |              |            |
-| **NWOGL**           |            |             |               |              |            |
-| **NDOGH**           |            |             |               |              |            |
-| **NDOGL**           |            |             |               |              |            |
-| **4:14 Close**      |            |             |               |              |            |
-| **9:30 Open**       |            |             |               |              |            |
