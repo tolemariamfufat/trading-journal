@@ -1,0 +1,10 @@
+# Handle line endings automatically for files detected as text 
+# and leave binary files (images/PDFs) alone.
+* text=auto
+
+# Explicitly declare text files you want to always be LF or CRLF
+# Obsidian files work best when standardized to LF
+*.md text eol=lf
+*.json text eol=lf
+*.css text eol=lf
+*.js text eol=lf
