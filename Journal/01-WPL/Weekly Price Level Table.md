@@ -9,4 +9,4 @@
 | NY 8:30 Open    | 25380  |         |           |          |        |
 | Rolling EQ      | 25807  | 25771   | 25696     | 25495    | 25254  |
 | Rolling ADR     | 391    | 475     | 597       | 672      | 699    |
-https://one.exnessonelink.com/a/2v6kszngxa
+|                 |        |         |           |          |        |

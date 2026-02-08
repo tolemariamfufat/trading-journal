@@ -1,5 +1,12 @@
-[[Rolling_ADR_MASTER_Feb_Week_1]]  |  [[Weekly Price Level Table]] |  [[New_Week_Opening_Gaps]]|[[New_Day_Opening_Gaps]] | [[930_Opening_Range_Gap]]
-
-
-
-
+---
+date: {{date}}
+day_of_week: {{date:dddd}}
+market_profile: 
+news_event: 
+midnight_open: 
+adr_high: 
+adr_low: 
+rolling_eq: 
+rolling_adr: 
+standard_deviation: 
+---
