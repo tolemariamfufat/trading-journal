@@ -89,7 +89,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 557.5
+    "width": 497.5
   },
   "right": {
     "id": "0d8a37d00e08341b",
@@ -208,21 +208,21 @@
   },
   "active": "cd728a85404a9c87",
   "lastOpenFiles": [
+    "Templates/Daily Trading Template.md",
+    "Journal/03-NWOG/New_Week_Opening_Gaps.md",
+    "Journal/02-RADR/Rolling_ADR_MASTER_Feb_Week_1.md",
+    "Journal/01-WPL/Weekly Price Level Table.md",
     "Journal/05-NDOG/New_Day_Opening_Gaps.md",
     "Journal/Daily/02-02-2026.md",
-    "Journal/04-930_OG/930_Opening_Range_Gap.md",
-    "Journal/01-WPL/Weekly Price Level Table.md",
-    "Journal/Dataview/Price Level Tracker.md",
-    "Templates/Daily Trading Template.md",
-    "Journal/Daily/05-02-2026.md",
     "Journal/Daily/03-02-2026.md",
+    "Journal/Daily/05-02-2026.md",
     "Journal/Dataview/Market Profile Analysis.md",
+    "Journal/04-930_OG/930_Opening_Range_Gap.md",
     "Templates/Weekly Trading Template.md",
-    "Journal/Daily/08-02-2026.md",
-    "Journal/02-RADR/Rolling_ADR_MASTER_Feb_Week_1.md",
     "Templates/Monthly Trading Template.md",
+    "Journal/Dataview/Price Level Tracker.md",
+    "Journal/Daily/08-02-2026.md",
     "Journal/Market Profile Analysis.md",
-    "Journal/03-NWOG/New_Week_Opening_Gaps.md",
     "Journal/Daily/07-02-2026.md",
     "Journal/Dataview",
     "Journal/Monthly/Dataview.md",

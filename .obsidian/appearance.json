@@ -1,8 +1,8 @@
 {
-  "theme": "moonstone",
+  "theme": "system",
   "textFontFamily": "Garamond",
   "interfaceFontFamily": "Inter",
   "accentColor": "",
   "monospaceFontFamily": "Courier",
-  "cssTheme": "Iridium"
+  "cssTheme": "MagicUser"
 }
