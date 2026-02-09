@@ -1,7 +1,3 @@
----
-tags:
-  - trading/execution/NWOG
----
 # Feb. 
 
 | Level/Week | Week1  | Week2 | Week3 | Week4 |
