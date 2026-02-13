@@ -179,8 +179,8 @@
             "state": {
               "type": "advanced-tables-toolbar",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "advanced-tables-toolbar"
+              "icon": "spreadsheet",
+              "title": "Advanced Tables"
             }
           }
         ],
@@ -188,8 +188,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -206,20 +205,21 @@
   },
   "active": "3b39ccee50bb4d25",
   "lastOpenFiles": [
-    "Journal/Daily/13-02-2026.md",
-    "Journal/Daily/12-02-2026.md",
-    "Journal/Daily/11-02-2026.md",
-    "Journal/Daily/10-02-2026.md",
+    "Table.md",
+    "Journal/NWOG/New_Week_Opening_Gaps.md",
     "Journal/Daily/09-02-2026.md",
     "Journal/Daily/05-02-2026.md",
     "Journal/Daily/03-02-2026.md",
+    "Journal/Daily/10-02-2026.md",
+    "Journal/Daily/11-02-2026.md",
+    "Journal/Daily/12-02-2026.md",
+    "Journal/Daily/13-02-2026.md",
+    "Journal/RADR/Rolling_ADR_MASTER_Feb_Week_1.md",
     "Journal/Daily/02-02-2026.md",
     "Walga'ii Waaltina jechootaa.md",
-    "Journal/RADR/Rolling_ADR_MASTER_Feb_Week_1.md",
     "Journal/Awareness/7 Levels.md",
     "Templates/Daily Trading Template.md",
     "Journal/Awareness",
-    "Journal/NWOG/New_Week_Opening_Gaps.md",
     "Journal/01-WPL/Weekly Price Level Table.md",
     "Templates/Weekly Trading Template.md",
     "Templates/Monthly Trading Template.md",
@@ -240,7 +240,6 @@
     "Journal/01-WPL",
     "Journal/Monthly",
     "Journal/Daily/Monthly",
-    "Journal/Monthly/Weekly",
-    "Journal/Journal.md"
+    "Journal/Monthly/Weekly"
   ]
 }
