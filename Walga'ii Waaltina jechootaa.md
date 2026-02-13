@@ -1,0 +1,12 @@
+- Standardization of Ormoo Academic Terms (by Dr. Abebe)
+	- terminology
+	- standardization
+	- word conventions
+	- criteria
+		- linguistically correct;
+		- should reflect the characteristics of the concept it represents;
+		- should be concise;
+		- should be able to generate other forms;
+		- should only be one term for  a single concept;
+		- Firoommii, Warroommii, 
+		

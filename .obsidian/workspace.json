@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "8ca69ac9aafc1956",
+        "id": "38516859456b641f",
         "type": "tabs",
         "children": [
           {
-            "id": "e737168bbe72ceb3",
+            "id": "3b39ccee50bb4d25",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Journal/RADR/Rolling_ADR_MASTER_Feb_Week_1.md",
+                "file": "Journal/NWOG/New_Week_Opening_Gaps.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Rolling_ADR_MASTER_Feb_Week_1"
+              "title": "New_Week_Opening_Gaps"
             }
           }
         ]
@@ -84,12 +84,11 @@
               "title": "Notebook Navigator"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 495.5
+    "width": 200
   },
   "right": {
     "id": "0d8a37d00e08341b",
@@ -205,14 +204,17 @@
       "notebook-navigator:Notebook Navigator": false
     }
   },
-  "active": "e737168bbe72ceb3",
+  "active": "3b39ccee50bb4d25",
   "lastOpenFiles": [
-    "Journal/Daily/09-02-2026.md",
-    "Journal/Daily/10-02-2026.md",
+    "Journal/Daily/13-02-2026.md",
+    "Journal/Daily/12-02-2026.md",
     "Journal/Daily/11-02-2026.md",
+    "Journal/Daily/10-02-2026.md",
+    "Journal/Daily/09-02-2026.md",
     "Journal/Daily/05-02-2026.md",
-    "Journal/Daily/02-02-2026.md",
     "Journal/Daily/03-02-2026.md",
+    "Journal/Daily/02-02-2026.md",
+    "Walga'ii Waaltina jechootaa.md",
     "Journal/RADR/Rolling_ADR_MASTER_Feb_Week_1.md",
     "Journal/Awareness/7 Levels.md",
     "Templates/Daily Trading Template.md",
@@ -239,9 +241,6 @@
     "Journal/Monthly",
     "Journal/Daily/Monthly",
     "Journal/Monthly/Weekly",
-    "Journal/Journal.md",
-    "Journal/Daily/Daily.md",
-    "Journal/Daily/01-02-2026.md",
-    "Journal/Daily/Untitled.md"
+    "Journal/Journal.md"
   ]
 }
