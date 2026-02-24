@@ -40,3 +40,7 @@ A high-probability trade requires the collision of three dimensions at the IDM
 3. **Identify the Zone:** Is the price now in 15M **Discount** (for buys) or **Premium** (for sells)?
 4. **The 1M Trigger:** Drop to the 1M chart and look for a **Market Structure Shift (MSS)** inside a 1M Fair Value Gap.
 5. **Entry:** Execute after the "Veil" is torn and the fuel is collected.
+- Price must form a change of character pattern or flip pattern
+- Price must form a breaker of structure and a zone breakout
+- Price should have left inefficiency behind when forming BOS
+- Formation of static liquidity zones near the point of interest. 
