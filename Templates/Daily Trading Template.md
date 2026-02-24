@@ -4,8 +4,6 @@ London open:
 NY open:
 9:30 Opening Range:
 NDOG:
-MO+SD_2.5:
-MO-SD_2.5:
 rolling_eq:
 rolling_adr:
 ---
