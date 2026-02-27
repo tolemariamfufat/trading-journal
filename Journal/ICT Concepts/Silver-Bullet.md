@@ -1,0 +1,6 @@
+- Example of a 10 AM Silver Bullet:
+	- 9:50 AM: You notice there are "Equal Highs" sitting from the London session.
+	- 10:10 AM: Price rallies toward those highs.
+	- 10:15 AM: A small 1-minute FVG forms during the move up.
+	- Entry: You buy the retracement into that FVG.
+	- Exit: You close the trade as soon as those "Equal Highs" are hit or you reach +15 points.

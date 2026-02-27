@@ -13,15 +13,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Journal/Daily/27-02-2026.md",
+                "file": "Journal/ICT Concepts/Silver bullet.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "27-02-2026"
+              "title": "Silver bullet"
+            }
+          },
+          {
+            "id": "27433fbb9388a38a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Journal/ICT Concepts/Optimal Trade Entry.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Optimal Trade Entry"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -204,11 +219,17 @@
       "notebook-navigator:Notebook Navigator": false
     }
   },
-  "active": "da37ecad11c8f9d2",
+  "active": "27433fbb9388a38a",
   "lastOpenFiles": [
+    "Journal/ICT Concepts/The Hydra Model.md",
+    "Journal/ICT Concepts/Optimal Trade Entry.md",
+    "Journal/ICT Concepts/The Turtle Soup.md",
+    "Journal/ICT Concepts/The Unicorn Model.md",
+    "Journal/ICT Concepts/Silver-Bullet.md",
+    "Journal/ICT Concepts/The Venom Model.md",
+    "Journal/Daily/27-02-2026.md",
     "USTECm_2026-02-27_12-03-11.png",
     "Journal/Daily/26-02-2026.md",
-    "Journal/Daily/27-02-2026.md",
     "Motion.md",
     "Journal/Daily/09-02-2026.md",
     "Journal/Daily/23-02-2026.md",
@@ -232,13 +253,8 @@
     "Physics/Low of least action and low of symmetry.md",
     "Journal/ICT Concepts/London.md",
     "Journal/Awareness/7 Levels.md",
-    "Journal/Awareness 1/7 Levels.md",
     "Journal/Awareness 1",
-    "Journal/ICT Concepts/NY session.md",
-    "Journal/ICT Concepts/Macro_730_800.md",
-    "Journal/ICT Concepts/Lunch hour.md",
     "Journal/ICT Concepts",
-    "Journal/Daily/19-02-2026.md",
     "Journal/Awareness",
     "Journal/Dataview",
     "Journal/05-NDOG",
