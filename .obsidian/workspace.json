@@ -25,18 +25,28 @@
             "id": "27433fbb9388a38a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Journal/ICT Concepts/Optimal Trade Entry.md",
-                "mode": "source",
-                "source": false
+                "file": "Screenshots/Screenshot.png"
               },
-              "icon": "lucide-file",
-              "title": "Optimal Trade Entry"
+              "icon": "lucide-image",
+              "title": "Screenshot"
+            }
+          },
+          {
+            "id": "65a14f6b7456fa2a",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "Screenshots/Screenshot (91).png"
+              },
+              "icon": "lucide-image",
+              "title": "Screenshot (91)"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -219,40 +229,46 @@
       "notebook-navigator:Notebook Navigator": false
     }
   },
-  "active": "27433fbb9388a38a",
+  "active": "65a14f6b7456fa2a",
   "lastOpenFiles": [
-    "Journal/ICT Concepts/The Hydra Model.md",
-    "Journal/ICT Concepts/Optimal Trade Entry.md",
+    "Screenshots/Screenshot (64).png",
+    "Screenshots/Screenshot.png",
+    "Journal/ICT Concepts/Combining High Quality Signals.md",
+    "Screenshots",
+    "Screenshots/Screenshot (91).png",
+    "Screenshots/Screenshot (90).png",
+    "Journal/ICT Concepts/Rising and Falling Wedge Pattern.md",
+    "Screenshots/Screenshot (87).png",
+    "Screenshots/Screenshot (88).png",
+    "Screenshots/Screenshot (89).png",
+    "Screenshots/Screenshot (86).png",
+    "Journal/ICT Concepts/Momuntum Candlestic pattern.md",
+    "Screenshots/Screenshot (81).png",
+    "Screenshots/Screenshot (80).png",
+    "Journal/ICT Concepts/Shrinking Candles.md",
+    "Screenshots/Screenshot (79).png",
+    "Journal/ICT Concepts/Double Top and Double Bottom Entry.md",
+    "Journal/ICT Concepts/Fakouts (Inducements).md",
+    "Journal/ICT Concepts/Inside Bar confirmation Entry.md",
+    "Journal/ICT Concepts/NY session.md",
     "Journal/ICT Concepts/The Turtle Soup.md",
     "Journal/ICT Concepts/The Unicorn Model.md",
-    "Journal/ICT Concepts/Silver-Bullet.md",
     "Journal/ICT Concepts/The Venom Model.md",
+    "Journal/ICT Concepts/Lunch hour.md",
+    "Journal/ICT Concepts/London.md",
+    "Journal/ICT Concepts/Inducement.md",
+    "Journal/ICT Concepts/Optimal Trade Entry.md",
+    "Journal/ICT Concepts/The Hydra Model.md",
+    "Journal/ICT Concepts/Silver-Bullet.md",
     "Journal/Daily/27-02-2026.md",
-    "USTECm_2026-02-27_12-03-11.png",
     "Journal/Daily/26-02-2026.md",
     "Motion.md",
     "Journal/Daily/09-02-2026.md",
     "Journal/Daily/23-02-2026.md",
     "Journal/Daily/24-02-2026.md",
     "Journal/ICT Concepts/NWOG, NDOG, ORG Life spans.md",
-    "Journal/ICT Concepts/Inducement.md",
     "Journal/Daily/05-02-2026.md",
-    "Journal/Daily/03-02-2026.md",
-    "Journal/Daily/25-02-2026.md",
-    "Physics/Electromagnetism and Sound-meaning.md",
     "Physics",
-    "Templates/Daily Trading Template.md",
-    "Journal/Daily/20-02-2026.md",
-    "Journal/ICT Concepts/Smart money continuation entry modle.md",
-    "Screenshot.png",
-    "Journal/ICT Concepts/SMC Continuation Entry Model.md",
-    "Screenshot (63) 2.png",
-    "Screenshot (63) 1.png",
-    "Screenshot (63).png",
-    "Journal/ICT Concepts/Silver bullet.md",
-    "Physics/Low of least action and low of symmetry.md",
-    "Journal/ICT Concepts/London.md",
-    "Journal/Awareness/7 Levels.md",
     "Journal/Awareness 1",
     "Journal/ICT Concepts",
     "Journal/Awareness",
@@ -260,7 +276,6 @@
     "Journal/05-NDOG",
     "Journal/04-930_OG",
     "Journal/NWOG",
-    "Journal/RADR",
-    "Journal/01-WPL"
+    "Journal/RADR"
   ]
 }
