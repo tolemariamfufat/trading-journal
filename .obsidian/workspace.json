@@ -4,35 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "d20a5459b1fc8ad3",
+        "id": "2890ec416db2dc2b",
         "type": "tabs",
         "children": [
           {
-            "id": "483568c651e73b94",
+            "id": "12f0faab8adb2c52",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "Journal/ICT Concepts/Valid Pull Back.md",
-                "mode": "source",
-                "source": false
+                "file": "Excalidraw/Entry.md"
               },
-              "icon": "lucide-file",
-              "title": "Valid Pull Back"
-            }
-          },
-          {
-            "id": "baafecdc73164711",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Journal/ICT Concepts/Optimal Trade Entry.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Optimal Trade Entry"
+              "icon": "excalidraw-icon",
+              "title": "Entry"
             }
           }
         ]
@@ -215,11 +199,34 @@
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "notebook-navigator:Notebook Navigator": false
+      "notebook-navigator:Notebook Navigator": false,
+      "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "483568c651e73b94",
+  "active": "12f0faab8adb2c52",
   "lastOpenFiles": [
+    "Excalidraw/Drawing 2026-03-01 10.01.35.excalidraw.svg",
+    "Excalidraw/Entry.md",
+    "Excalidraw/Entry.svg",
+    "Excalidraw/Drawing 2026-03-01 10.01.35.excalidraw.md",
+    "Journal/ICT Concepts/Entry Models.md",
+    "Excalidraw",
+    "Excalidraw/Entry Models.md",
+    "Excalidraw/Entry Models.restored.md",
+    "Screenshots/Screenshot (91).png",
+    "Excalidraw/Entry Models.png",
+    "Excalidraw/Entry Models.svg",
+    "Journal/ICT Concepts/Combining High Quality Signals.md",
+    "Journal/ICT Concepts/Double Top and Double Bottom Entry.md",
+    "OB.png",
+    "Templates/Daily Trading Template.md",
+    "Drawing 2026-03-01 08.36.08.excalidraw.md",
+    "Templates/Drawing 2026-03-01 08.51.49.md",
+    "templates/Drawing 2026-03-01 08.51.49.md",
+    "Journal/ICT Concepts/Drawing 2026-03-01 08.35.06.excalidraw.md",
+    "Journal/ICT Concepts/Drawing 2026-03-01 08.33.41.excalidraw.md",
+    "Journal/ICT Concepts/Optimal Trade Entry.md",
+    "Journal/ICT Concepts/Valid Pull Back.md",
     "Journal/ICT Concepts/The Venom Model.md",
     "Journal/ICT Concepts/The Unicorn Model.md",
     "Journal/ICT Concepts/The Turtle Soup.md",
@@ -229,34 +236,12 @@
     "Journal/ICT Concepts/Silver bullet.md",
     "Journal/ICT Concepts/Shrinking Candles.md",
     "Journal/ICT Concepts/Rising and Falling Wedge Pattern.md",
-    "Journal/ICT Concepts/Optimal Trade Entry.md",
     "Journal/ICT Concepts/NY session.md",
-    "Journal/ICT Concepts/NWOG, NDOG, ORG Life spans.md",
-    "Journal/ICT Concepts/Momuntum Candlestic pattern.md",
-    "Journal/ICT Concepts/Macro_730_800.md",
-    "Journal/ICT Concepts/Lunch hour.md",
-    "Journal/ICT Concepts/London.md",
-    "Journal/ICT Concepts/Inside Bar confirmation Entry.md",
-    "Journal/ICT Concepts/Inducement.md",
-    "Journal/ICT Concepts/Fakouts (Inducements).md",
-    "Journal/ICT Concepts/Double Top and Double Bottom Entry.md",
-    "Journal/ICT Concepts/Entry Models.md",
-    "Journal/ICT Concepts/Valid Pull Back.md",
     "Screenshots/bearish engulfing.png",
     "Screenshots/bullish engulfing.png",
     "Screenshots/Turtlsoup.png",
     "Screenshots/Pinbar.jpg",
-    "Screenshots/insidebar.png",
-    "Screenshots/insidebar.jpg",
-    "Screenshots/breaker and retest 1.jpg",
-    "Screenshots/breaker and retest.jpg",
-    "Screenshots/Unicorn.jpg",
-    "OB.png",
-    "Journal/ICT Concepts/Combining High Quality Signals.md",
     "Screenshots",
-    "Journal/Daily/27-02-2026.md",
-    "Journal/Daily/26-02-2026.md",
-    "Motion.md",
     "Physics",
     "Journal/Awareness 1",
     "Journal/ICT Concepts",
@@ -264,7 +249,6 @@
     "Journal/Dataview",
     "Journal/05-NDOG",
     "Journal/04-930_OG",
-    "Journal/NWOG",
-    "Journal/RADR"
+    "Journal/NWOG"
   ]
 }
