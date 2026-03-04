@@ -9,4 +9,4 @@
 		- should be able to generate other forms;
 		- should only be one term for  a single concept;
 		- Firoommii, Warroommii, 
-		
+		namoomaa

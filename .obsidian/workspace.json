@@ -11,12 +11,14 @@
             "id": "12f0faab8adb2c52",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/Entry.md"
+                "file": "Walga'ii Waaltina jechootaa.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "excalidraw-icon",
-              "title": "Entry"
+              "icon": "lucide-file",
+              "title": "Walga'ii Waaltina jechootaa"
             }
           }
         ]
@@ -78,8 +80,8 @@
             "state": {
               "type": "notebook-navigator",
               "state": {},
-              "icon": "notebook-navigator",
-              "title": "Notebook Navigator"
+              "icon": "lucide-ghost",
+              "title": "notebook-navigator"
             }
           }
         ]
@@ -177,8 +179,8 @@
             "state": {
               "type": "advanced-tables-toolbar",
               "state": {},
-              "icon": "spreadsheet",
-              "title": "Advanced Tables"
+              "icon": "lucide-ghost",
+              "title": "advanced-tables-toolbar"
             }
           }
         ],
@@ -198,15 +200,16 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "notebook-navigator:Notebook Navigator": false,
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
   "active": "12f0faab8adb2c52",
   "lastOpenFiles": [
-    "Excalidraw/Drawing 2026-03-01 10.01.35.excalidraw.svg",
+    "Journal/Daily/27-02-2026.md",
+    "Journal/Daily/10-02-2026.md",
+    "Journal/Daily/03-02-2026.md",
     "Excalidraw/Entry.md",
+    "Excalidraw/Drawing 2026-03-01 10.01.35.excalidraw.svg",
     "Excalidraw/Entry.svg",
     "Excalidraw/Drawing 2026-03-01 10.01.35.excalidraw.md",
     "Journal/ICT Concepts/Entry Models.md",
@@ -235,8 +238,6 @@
     "Journal/ICT Concepts/Silver-Bullet.md",
     "Journal/ICT Concepts/Silver bullet.md",
     "Journal/ICT Concepts/Shrinking Candles.md",
-    "Journal/ICT Concepts/Rising and Falling Wedge Pattern.md",
-    "Journal/ICT Concepts/NY session.md",
     "Screenshots/bearish engulfing.png",
     "Screenshots/bullish engulfing.png",
     "Screenshots/Turtlsoup.png",
