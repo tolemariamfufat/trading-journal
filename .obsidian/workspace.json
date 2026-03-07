@@ -4,19 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "467fbba5b7a82c10",
+        "id": "8a4f720fccdc2faa",
         "type": "tabs",
         "children": [
           {
-            "id": "122240715029fd94",
+            "id": "6163f4b53684d925",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/EntryModels.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "EntryModels"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
         ]
@@ -92,7 +90,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Excalidraw/EntryModels.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +99,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for EntryModels"
+              "title": "Backlinks"
             }
           },
           {
@@ -160,13 +157,23 @@
               "icon": "lucide-list",
               "title": "Outline"
             }
+          },
+          {
+            "id": "38418f3a2940e254",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -181,9 +188,9 @@
       "bases:Create new base": false
     }
   },
-  "active": "122240715029fd94",
+  "active": "6163f4b53684d925",
   "lastOpenFiles": [
-    "Excalidraw/Entry.svg",
-    "Excalidraw/EntryModels.md"
+    "Excalidraw/EntryModels.md",
+    "Excalidraw/Entry.svg"
   ]
 }
