@@ -11,11 +11,11 @@
             "id": "0a95871844debda2",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "image",
               "state": {
-                "file": "Excalidraw/EntryModels.md"
+                "file": "Excalidraw/EntryModels.svg"
               },
-              "icon": "excalidraw-icon",
+              "icon": "lucide-image",
               "title": "EntryModels"
             }
           }
@@ -192,9 +192,11 @@
   },
   "active": "0a95871844debda2",
   "lastOpenFiles": [
+    "Excalidraw/EntryModels.excalidraw",
+    "Excalidraw/EntryModels.svg",
+    "Excalidraw/EntryModels.md",
     "Excalidraw/Entry.svg",
     "Excalidraw/Entry.md",
-    "Excalidraw/EntryModels.md",
     "Screenshots/Screenshot (86).png",
     "Screenshots/Screenshot (70).png",
     "Screenshots/Screenshot (67).png",
