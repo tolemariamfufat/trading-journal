@@ -4,17 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "13cfde90b35d5ba5",
+        "id": "8d11704993e40098",
         "type": "tabs",
         "children": [
           {
-            "id": "568a81d5d176a51f",
+            "id": "3b91b2dfc704a8df",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
+              "type": "image",
+              "state": {
+                "file": "Excalidraw/EntryModels.svg"
+              },
+              "icon": "lucide-image",
+              "title": "EntryModels"
             }
           }
         ]
@@ -188,12 +190,12 @@
       "bases:Create new base": false
     }
   },
-  "active": "38418f3a2940e254",
+  "active": "3b91b2dfc704a8df",
   "lastOpenFiles": [
     "Excalidraw/EntryModels.excalidraw",
     "Excalidraw/EntryModels.svg",
-    "Excalidraw/Entry.svg",
     "Excalidraw/Entry.md",
+    "Excalidraw/Entry.svg",
     "Excalidraw/EntryModels.md",
     "Screenshots/Screenshot (86).png",
     "Screenshots/Screenshot (70).png",
