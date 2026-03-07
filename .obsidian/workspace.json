@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "757e1a7b0f0d06fd",
+        "id": "467fbba5b7a82c10",
         "type": "tabs",
         "children": [
           {
-            "id": "ffdf27272c1b15bf",
+            "id": "122240715029fd94",
             "type": "leaf",
             "state": {
               "type": "excalidraw",
@@ -181,8 +181,9 @@
       "bases:Create new base": false
     }
   },
-  "active": "07e32f003cf30d3c",
+  "active": "122240715029fd94",
   "lastOpenFiles": [
+    "Excalidraw/Entry.svg",
     "Excalidraw/EntryModels.md"
   ]
 }
