@@ -4,17 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "8a4f720fccdc2faa",
+        "id": "6f4cb92f5cd3f451",
         "type": "tabs",
         "children": [
           {
-            "id": "6163f4b53684d925",
+            "id": "0a95871844debda2",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2026-03-07 16.36.37.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2026-03-07 16.36.37.excalidraw"
             }
           }
         ]
@@ -173,7 +175,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -188,9 +191,11 @@
       "bases:Create new base": false
     }
   },
-  "active": "6163f4b53684d925",
+  "active": "0a95871844debda2",
   "lastOpenFiles": [
     "Excalidraw/EntryModels.md",
+    "Excalidraw/Drawing 2026-03-07 16.36.37.excalidraw.md",
+    "Excalidraw/Entry.md",
     "Excalidraw/Entry.svg"
   ]
 }
