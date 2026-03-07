@@ -13,10 +13,10 @@
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "Excalidraw/Drawing 2026-03-07 15.04.39.excalidraw.md"
+                "file": "Excalidraw/EntryModels.md"
               },
               "icon": "excalidraw-icon",
-              "title": "Drawing 2026-03-07 15.04.39.excalidraw"
+              "title": "EntryModels"
             }
           }
         ]
@@ -92,6 +92,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Excalidraw/EntryModels.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,7 +102,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for EntryModels"
             }
           },
           {
@@ -180,8 +181,8 @@
       "bases:Create new base": false
     }
   },
-  "active": "ffdf27272c1b15bf",
+  "active": "07e32f003cf30d3c",
   "lastOpenFiles": [
-    "Excalidraw/Drawing 2026-03-07 15.04.39.excalidraw.md"
+    "Excalidraw/EntryModels.md"
   ]
 }
