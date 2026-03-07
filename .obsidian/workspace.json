@@ -11,12 +11,14 @@
             "id": "0a95871844debda2",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "split-diff-view",
               "state": {
-                "file": "Excalidraw/EntryModels.svg"
+                "aFile": ".obsidian/workspace.json",
+                "bFile": ".obsidian/workspace.json",
+                "aRef": ""
               },
-              "icon": "lucide-image",
-              "title": "EntryModels"
+              "icon": "diff",
+              "title": "Diff: workspace.json  (Working Tree)"
             }
           }
         ]
@@ -190,13 +192,13 @@
       "bases:Create new base": false
     }
   },
-  "active": "0a95871844debda2",
+  "active": "38418f3a2940e254",
   "lastOpenFiles": [
     "Excalidraw/EntryModels.excalidraw",
     "Excalidraw/EntryModels.svg",
-    "Excalidraw/EntryModels.md",
     "Excalidraw/Entry.svg",
     "Excalidraw/Entry.md",
+    "Excalidraw/EntryModels.md",
     "Screenshots/Screenshot (86).png",
     "Screenshots/Screenshot (70).png",
     "Screenshots/Screenshot (67).png",
