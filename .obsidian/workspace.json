@@ -11,10 +11,12 @@
             "id": "ffdf27272c1b15bf",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2026-03-07 15.04.39.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2026-03-07 15.04.39.excalidraw"
             }
           }
         ]
@@ -179,5 +181,7 @@
     }
   },
   "active": "ffdf27272c1b15bf",
-  "lastOpenFiles": []
+  "lastOpenFiles": [
+    "Excalidraw/Drawing 2026-03-07 15.04.39.excalidraw.md"
+  ]
 }
