@@ -11,11 +11,13 @@
             "id": "0a95871844debda2",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/Drawing 2026-03-07 16.36.37.excalidraw.md"
+                "file": "Excalidraw/Drawing 2026-03-07 16.36.37.excalidraw.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "excalidraw-icon",
+              "icon": "lucide-file",
               "title": "Drawing 2026-03-07 16.36.37.excalidraw"
             }
           }
@@ -175,8 +177,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -191,7 +192,7 @@
       "bases:Create new base": false
     }
   },
-  "active": "0a95871844debda2",
+  "active": "07e32f003cf30d3c",
   "lastOpenFiles": [
     "Excalidraw/EntryModels.md",
     "Excalidraw/Drawing 2026-03-07 16.36.37.excalidraw.md",
