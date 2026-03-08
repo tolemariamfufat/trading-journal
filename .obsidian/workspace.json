@@ -13,7 +13,7 @@
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "Excalidraw/Drawing 2026-03-08 09.26.47.excalidraw"
+                "file": "Excalidraw/Drawing 2026-03-08 09.26.47.md"
               },
               "icon": "excalidraw-icon",
               "title": "Drawing 2026-03-08 09.26.47"
@@ -175,8 +175,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -193,9 +192,12 @@
   },
   "active": "3b91b2dfc704a8df",
   "lastOpenFiles": [
-    "Excalidraw/Drawing 2026-03-08 09.26.47.svg",
-    "Excalidraw/Drawing 2026-03-08 09.26.47.excalidraw",
+    "Excalidraw/Drawing 2026-03-08 09.26.47.excalidraw.svg",
     "Excalidraw/Drawing 2026-03-08 09.26.47.md",
+    "Excalidraw/Drawing 2026-03-08 09.26.47.svg",
+    "Excalidraw/Drawing 2026-03-08 09.26.47.excalidraw.excalidraw",
+    "Excalidraw/Drawing 2026-03-08 09.26.47.excalidraw.md",
+    "Excalidraw/Drawing 2026-03-08 09.26.47.excalidraw",
     "Excalidraw/EntryModels.svg",
     "Excalidraw/EntryModels.excalidraw.svg",
     "Excalidraw/EntryModels.excalidraw.md",
