@@ -175,8 +175,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -191,7 +190,7 @@
       "bases:Create new base": false
     }
   },
-  "active": "3b91b2dfc704a8df",
+  "active": "07e32f003cf30d3c",
   "lastOpenFiles": [
     "Journal/Daily/09-03-26.md",
     "wifi.md",
