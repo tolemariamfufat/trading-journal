@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "8d11704993e40098",
+        "id": "53819d85d715daca",
         "type": "tabs",
         "children": [
           {
-            "id": "3b91b2dfc704a8df",
+            "id": "841f8053be84b1e5",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 312.5
   },
   "right": {
     "id": "4922b864ef088010",
@@ -192,15 +192,18 @@
       "bases:Create new base": false
     }
   },
-  "active": "3b91b2dfc704a8df",
+  "active": "841f8053be84b1e5",
   "lastOpenFiles": [
+    "Journal/ICT2026 lectures/10-03-2026.md",
+    "Journal/Daily/10-03-26.md",
+    "Journal/ICT2026 lectures",
+    "Journal/Daily/Untitled",
     "wifi.md",
     "conflict-files-obsidian-git.md",
     "Motion.md",
     "Journal/Daily/05-02-2026.md",
     "Journal/Awareness/7 Levels.md",
     "Journal/Daily/09-02-2026.md",
-    "Journal/Daily/10-03-26.md",
     "signal-strength.md",
     "Journal/Daily/03-02-2026.md",
     "Excalidraw/Drawing 2026-03-08 09.26.47.svg",
