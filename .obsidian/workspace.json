@@ -11,14 +11,12 @@
             "id": "841f8053be84b1e5",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "Journal/Daily/12-03-26.md",
-                "mode": "source",
-                "source": false
+                "file": "Excalidraw/Drawing 2026-03-08 09.26.47.md"
               },
-              "icon": "lucide-file",
-              "title": "12-03-26"
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2026-03-08 09.26.47"
             }
           }
         ]
@@ -195,8 +193,10 @@
   },
   "active": "841f8053be84b1e5",
   "lastOpenFiles": [
-    "Silverblue commands.md",
+    "Excalidraw/Drawing 2026-03-08 09.26.47.md",
+    "Physics/Electromagnetism and Sound-meaning.md",
     "Journal/Daily/12-03-26.md",
+    "Silverblue commands.md",
     "Journal/Daily/11-03-26.md",
     "Journal/Daily/10-03-26.md",
     "Journal/ICT2026 lectures/10-03-2026.md",
@@ -218,7 +218,6 @@
     "Journal/Daily/04-03-2026.md",
     "Journal/Daily/27-02-2026.md",
     "Journal/NWOG/New_Week_Opening_Gaps.md",
-    "Excalidraw/Drawing 2026-03-08 09.26.47.md",
     "Excalidraw/Drawing 2026-03-08 09.26.47.excalidraw",
     "Excalidraw/Drawing 2026-03-08 09.26.47.excalidraw.svg",
     "Excalidraw/Drawing 2026-03-08 09.26.47.excalidraw.excalidraw",
@@ -234,7 +233,6 @@
     "Screenshots/Screenshot (86).png",
     "Screenshots/Screenshot (70).png",
     "Screenshots/Screenshot (67).png",
-    "Excalidraw/EntryModels.svg.svg",
-    "Excalidraw/Drawing 2026-03-07 16.36.37.excalidraw.md"
+    "Excalidraw/EntryModels.svg.svg"
   ]
 }

@@ -4,5 +4,8 @@
   "interfaceFontFamily": "Inter",
   "accentColor": "",
   "monospaceFontFamily": "Courier",
-  "cssTheme": "MagicUser"
+  "cssTheme": "Things",
+  "nativeMenus": true,
+  "baseFontSize": 16,
+  "baseFontSizeAction": true
 }
