@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily Intraday Profiles..md",
+                "file": "Journal/Daily/13-03-26.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Daily Intraday Profiles."
+              "title": "13-03-26"
             }
           }
         ]
@@ -194,6 +194,7 @@
   },
   "active": "841f8053be84b1e5",
   "lastOpenFiles": [
+    "Daily Intraday Profiles..md",
     "Silverblue commands.md",
     "Walga'ii Waaltina jechootaa.md",
     "wifi.md",
@@ -203,7 +204,6 @@
     "Journal/Daily/12-02-2026.md",
     "Journal/Daily/09-03-26.md",
     "Journal/Daily/11-03-26.md",
-    "Daily Intraday Profiles..md",
     "Journal/Daily/13-02-2026.md",
     "Journal/Daily/12-03-26.md",
     "Templates/Daily Trading Template.md",
