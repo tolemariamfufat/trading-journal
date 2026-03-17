@@ -8,7 +8,7 @@ Day High-Low:
 Day EQ:
 ---
 ---
-## 1. The Foundation: Higher Timeframe (HTF) Narrative
+## 1. The Foundation: Higher Time-frame (HTF) Narrative
 
 Before looking for a setup, you must determine the **Draw on Liquidity (DOL)**.
 - **Daily/H4 Bias:** Are we reaching for a previous day's high/low, an expansion leg, or a HTF Fair Value Gap (FVG)?
