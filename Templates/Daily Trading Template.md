@@ -9,19 +9,21 @@ Day EQ:
 ---
 ---
 
-# 💹 Trading Session: 
+1. The Foundation: Higher Timeframe (HTF) Narrative
+Before looking for a setup, you must determine the **Draw on Liquidity (DOL)**. 
+- **Daily/H4 Bias:** Are we reaching for a previous day's high/low, an expansion leg, or a HTF Fair Value Gap (FVG)?    
+- **Premium vs. Discount:** High probability longs occur in a **Discount** (below 50% of the current range); shorts occur in a **Premium**.
+## 2. Top-Tier Setups (Hierarchy of Probability)
 
-> [!CHECKLIST] ## 1. Pre-Market Context , Liquidity and Execution(15M)> 
-> - [ ] **Trend Direction:** Mark Daily, 4H, 1H for Direction.
-> - [ ] **Dealing Range** Mark Yesterday's High/Low, Asian Range, London and NY Swing High/Low.
-> - [ ] **Identify IDM:** Mark the most recent **Valid Pullback** (mechanical candle break).
-> - [ ] **Premium/Discount:** Draw Fib from Swing Low to High. Is IDM in the Discount?
-> - [ ] **The Sweep:** Has the 15M price traded through the IDM? 
-> - [ ] **1M MSS:** Look for displacement + candle close above/below short-term structure.
-> - [ ] **FVG Entry:** Mark the 1M Fair Value Gap.
-> - [ ] **Risk/Reward:** SL below the 1M sweep low. Target 15M External High/Low.
-> 
-## 📝 Session Notes & Screenshots
-*Paste your chart screenshots here (WIN/LOSS/NO-TRADE)*
-- **Why did I take/miss this?**
-- **Did I wait for the IDM or did I get "Induced"?**
+## I. The 2022 Mentorship Model (The "Bread and Butter")
+
+Considered the gold standard for consistency. It relies on a "raid then shift" logic.
+
+1. **Liquidity Raid:** Price sweeps a key level (Previous Day High/Low, Session High/Low).
+    
+2. **Market Structure Shift (MSS):** A forceful break of a short-term swing high/low with **Displacement**.
+    
+3. **The FVG Entry:** Enter on the retracement into the Fair Value Gap created by that displacement.
+    
+
+- **Why it's High Prob:** It proves institutional sponsorship through the displacement candle.
