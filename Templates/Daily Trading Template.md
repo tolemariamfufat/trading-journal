@@ -7,7 +7,6 @@ NDOG:
 Yester Day High-Low:
 Day EQ:
 ---
----
 ## 1. The Foundation: Higher Time-frame (HTF) Narrative
 
 Before looking for a setup, you must determine the **Draw on Liquidity (DOL)**.
@@ -40,29 +39,57 @@ Used primarily to predict the "Daily Candle" formation.
 A more advanced confluence model that is highly favored for its "stop-run" protection.
 - **Components:** A **Breaker Block** that overlaps with a **Fair Value Gap**.
 - **Logic:** When price breaks structure, it often leaves a "failed" Order Block (the Breaker) and an FVG at the same level. This creates a "wall" of resistance or support.
-## The 4 Pillars of the 2022 Model
 
-## 1. The Context (The "Why")
+## The ICT 2022 Model: Pre-Trade Checklist
 
-Before looking at a 1-minute or 5-minute chart, you must identify a **Liquidity Pool** or a **HTF PD Array** (Higher Timeframe Premium/Discount Array).
-- **Target:** Previous Day High/Low, Session High/Low (London/Asia), or a H4/Daily Fair Value Gap (FVG).
-- **Action:** Price must reach into or "sweep" one of these levels first. If there is no sweep, there is no setup.
-## 2. The Setup (The "What")
+---
 
-Once price hits your HTF level, drop down to a lower timeframe (**M1, M5, or M15**).
-- **The Raid:** Look for a clear "Stop Run" (a candle that takes out the recent swing high or low).
-- **Market Structure Shift (MSS):** After the raid, price must aggressively reverse and break the most recent swing low (for a short) or swing high (for a long).
-- **The Displacement:** The move that breaks structure **must** be energetic. It should create a large, impulsive candle that leaves behind a **Fair Value Gap (FVG)**
-## 3. The Execution (The "How")
+#### Phase 1: The Context (The "Where" and "When")
 
-## The Entry
-- **Entry Point:** Place a limit order at the **beginning (consequent encroachment)** of the Fair Value Gap created during the displacement.
-- **The Logic:** You are "trading the return" to the gap where the algorithm left an imbalance.
-## The Stop Loss
+- [ ] **Time Check:** Is the current time within a **Killzone**? (London: 2:00–5:00 AM EST / NY: 8:30–11:00 AM EST).
+    
+- [ ] **HTF Bias:** On the H1 or Daily chart, are we moving toward a specific draw on liquidity (an old high/low or an unfilled FVG)?
+    
+- [ ] **PD Array:** Are we in **Discount** (for a Buy) or **Premium** (for a Sell) relative to the recent swing high/low?
+    
 
-- **Placement:** Generally placed just above the **Swing High** (for shorts) or below the **Swing Low** (for longs) that formed during the liquidity raid.
-- **Refinement:** If the displacement candle is very long, you can place the stop above the high of the candle that created the FVG, though the swing point is safer.
-## The Take Profit (The "Draw")
+#### Phase 2: The Setup (The "What")
 
-- **Primary Target:** The opposing liquidity (e.g., if you went short after a buy-side sweep, your target is the nearest sell-side liquidity).
-- **Management:** Aim for a minimum of **2:1 Reward-to-Risk**. You can take partial profits at the 1:1 mark to "pay the trader."
+- [ ] **Liquidity Purge:** Has price clearly swept a **previous session high/low**, a daily high/low, or "Equal Highs/Lows"?
+    
+- [ ] **Displacement:** After the sweep, was there a sharp, energetic move in the opposite direction? (Small, lazy candles don't count).
+    
+- [ ] **MSS (Market Structure Shift):** Did that displacement move break a recent **Swing High** (for a buy) or **Swing Low** (for a sell)?
+    
+- [ ] **The Gap:** Is there a clear **Fair Value Gap (FVG)** created during that displacement move?
+    
+
+#### Phase 3: The Execution (The "How")
+
+- [ ] **Entry:** Is my limit order set at the **consequent encroachment** (50%) or the start of the FVG?
+    
+- [ ] **Stop Loss (SL):** Is my stop placed safely below the low/high that formed the displacement move?
+    
+- [ ] **Take Profit (TP):** Am I targeting the next logical "Draw on Liquidity" (opposite side old highs/lows)?
+    
+- [ ] **Risk:** Is my position size calculated so I only lose **1% (or less)** of my account if hit?
+    
+
+---
+
+## The "Rules" in Practice (A Visual Guide)
+
+Imagine the market is moving like this:
+
+1. **Price sweeps** a 15-minute low at 9:30 AM (Check: Killzone & Liquidity).
+    
+2. **Price rockets upward**, breaking a 1-minute swing high (Check: MSS & Displacement).
+    
+3. **A gap is left behind** in the candles (Check: FVG).
+    
+
+> **The ICT Trap:** If you enter _before_ the 1-minute swing high is broken, you are "predicting." If you enter _after_ the MSS but there is no FVG, you are "chasing." **Both are "breaking rules."**
+
+## Why this works
+
+ICT claims that "Smart Money" (algorithms) operates on these specific signatures. By waiting for the **Sweep → MSS → FVG** sequence, you are essentially waiting for the "big players" to show their hand before you put your money at risk.
