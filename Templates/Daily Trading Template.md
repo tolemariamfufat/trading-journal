@@ -7,6 +7,15 @@ NDOG:
 Yester Day High-Low:
 Day EQ:
 ---
+| **Component**   | **Your Professional Rule**                                |
+| --------------- | --------------------------------------------------------- |
+| **Identity**    | Scalper (Precision & Speed).                              |
+| **Model**       | ICT 2022 (HTF Bias + Liquidity Raid + MSS + 50% FVG).     |
+| **Assets**      | GBPUSD (London) & USTech (New York).                      |
+| **Risk**        | Fixed 1:1 Reward-to-Risk.                                 |
+| **Volume**      | Max 2 Trades per day (Win or Loss).                       |
+| **Hard Filter** | **Zero trades** during High-Impact News (CPI, NFP, FOMC). |
+| **Mindset**     | No revenge; analyze errors and move to other duties.      |
 ## 1. The Foundation: Higher Time-frame (HTF) Narrative
 
 Before looking for a setup, you must determine the **Draw on Liquidity (DOL)**.
@@ -93,3 +102,4 @@ Imagine the market is moving like this:
 ## Why this works
 
 ICT claims that "Smart Money" (algorithms) operates on these specific signatures. By waiting for the **Sweep → MSS → FVG** sequence, you are essentially waiting for the "big players" to show their hand before you put your money at risk.
+
