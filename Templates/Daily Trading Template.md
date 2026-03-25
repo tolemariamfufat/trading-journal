@@ -16,6 +16,22 @@ Day EQ:
 | **Volume**      | Max 2 Trades per day (Win or Loss).                       |
 | **Hard Filter** | **Zero trades** during High-Impact News (CPI, NFP, FOMC). |
 | **Mindset**     | No revenge; analyze errors and move to other duties.      |
+Asian Session Macros
+    19:00 – 20:00: The "Initial Asian Range" setup.
+    20:00 – 00:00: The Asian Killzone (establishing the initial boundary).
+    00:00: The Midnight Open (The most important price point for daily bias).
+🇬🇧 London Session Macros
+    02:33 AM – 03:00 AM: The London Open Macro (Liquidity grab/initial move).
+    04:03 AM – 04:30 AM: The London Trend Macro (Aligns with the London Silver Bullet).
+🇺🇸 New York Session Macros (The Most Vital)
+AM Session (Morning)
+    08:50 AM – 09:10 AM: Pre-Market Macro (Runs liquidity just before the 09:30 AM Equities Open).
+    09:50 AM – 10:10 AM: The Silver Bullet Macro (High probability for displacement/FVG entries).
+    10:50 AM – 11:10 AM: London Close Macro (Often a reversal or a final push into the London Close).
+PM Session (Afternoon)
+    11:50 AM – 12:10 PM: The "Lunch Macro" (Often a re-test or a shallow reversal).
+    01:10 PM – 01:40 PM: The PM Session Kick-off (Sets the direction for the afternoon).
+    03:15 PM – 03:45 PM: The "20-6
 ## 1. The Foundation: Higher Time-frame (HTF) Narrative
 
 Before looking for a setup, you must determine the **Draw on Liquidity (DOL)**.
