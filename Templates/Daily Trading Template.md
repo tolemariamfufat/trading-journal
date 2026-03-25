@@ -7,6 +7,7 @@ NDOG:
 Yester Day High-Low:
 Day EQ:
 ---
+
 | **Component**   | **Your Professional Rule**                                |
 | --------------- | --------------------------------------------------------- |
 | **Identity**    | Scalper (Precision & Speed).                              |
@@ -72,34 +73,21 @@ A more advanced confluence model that is highly favored for its "stop-run" prote
 #### Phase 1: The Context (The "Where" and "When")
 
 - [ ] **Time Check:** Is the current time within a **Killzone**? (London: 2:00–5:00 AM EST / NY: 8:30–11:00 AM EST).
-    
 - [ ] **HTF Bias:** On the H1 or Daily chart, are we moving toward a specific draw on liquidity (an old high/low or an unfilled FVG)?
-    
 - [ ] **PD Array:** Are we in **Discount** (for a Buy) or **Premium** (for a Sell) relative to the recent swing high/low?
-    
-
 #### Phase 2: The Setup (The "What")
 
 - [ ] **Liquidity Purge:** Has price clearly swept a **previous session high/low**, a daily high/low, or "Equal Highs/Lows"?
-    
 - [ ] **Displacement:** After the sweep, was there a sharp, energetic move in the opposite direction? (Small, lazy candles don't count).
-    
 - [ ] **MSS (Market Structure Shift):** Did that displacement move break a recent **Swing High** (for a buy) or **Swing Low** (for a sell)?
-    
 - [ ] **The Gap:** Is there a clear **Fair Value Gap (FVG)** created during that displacement move?
-    
 
 #### Phase 3: The Execution (The "How")
 
 - [ ] **Entry:** Is my limit order set at the **consequent encroachment** (50%) or the start of the FVG?
-    
 - [ ] **Stop Loss (SL):** Is my stop placed safely below the low/high that formed the displacement move?
-    
 - [ ] **Take Profit (TP):** Am I targeting the next logical "Draw on Liquidity" (opposite side old highs/lows)?
-    
 - [ ] **Risk:** Is my position size calculated so I only lose **1% (or less)** of my account if hit?
-    
-
 ---
 
 ## The "Rules" in Practice (A Visual Guide)
@@ -107,12 +95,8 @@ A more advanced confluence model that is highly favored for its "stop-run" prote
 Imagine the market is moving like this:
 
 1. **Price sweeps** a 15-minute low at 9:30 AM (Check: Killzone & Liquidity).
-    
 2. **Price rockets upward**, breaking a 1-minute swing high (Check: MSS & Displacement).
-    
 3. **A gap is left behind** in the candles (Check: FVG).
-    
-
 > **The ICT Trap:** If you enter _before_ the 1-minute swing high is broken, you are "predicting." If you enter _after_ the MSS but there is no FVG, you are "chasing." **Both are "breaking rules."**
 
 ## Why this works
