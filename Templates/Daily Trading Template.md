@@ -17,6 +17,13 @@ Day EQ:
 | **Volume**      | Max 2 Trades per day (Win or Loss).                       |
 | **Hard Filter** | **Zero trades** during High-Impact News (CPI, NFP, FOMC). |
 | **Mindset**     | No revenge; analyze errors and move to other duties.      |
+## 💡 Final Strategy for Your Edge:
+
+1. **Wait for SMT Divergence** (EUR sweeps, GBP fails).
+2. **Enter the "Failure" pair** (the stronger/weaker one) using **0.01 lots**.
+3. **Set Stop Loss** 2 pips above the high/low.
+4. **Set Take Profit** at the nearest liquidity pool that offers **1:2 R:R**. (if your SL is 10 Pips ($1.00) your TP is 20 Pips ($2.00))
+5. **Move to Break-Even** once you hit **1:1**.
 Asian Session Macros
     19:00 – 20:00: The "Initial Asian Range" setup.
     20:00 – 00:00: The Asian Killzone (establishing the initial boundary).
