@@ -12,7 +12,7 @@ Day EQ:
 | --------------- | --------------------------------------------------------- |
 | **Identity**    | Scalper (Precision & Speed).                              |
 | **Model**       | ICT 2022 (HTF Bias + Liquidity Raid + MSS + 50% FVG).     |
-| **Assets**      | GBPUSD (London) & USTech (New York).                      |
+| **Assets**      | GBPUSD/EURUSD (London) & USTech (New York).               |
 | **Risk**        | Fixed 1:1 Reward-to-Risk.                                 |
 | **Volume**      | Max 2 Trades per day (Win or Loss).                       |
 | **Hard Filter** | **Zero trades** during High-Impact News (CPI, NFP, FOMC). |
