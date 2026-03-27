@@ -6,11 +6,10 @@ If you ever want to verify that the updates actually happened while you were sle
 
 Bash
  
-
 journalctl --user -u flatpak-auto-update.service
 journalctl -u rpm-ostreed-automatic.service
 
-
+**How to change Login screen** 
 1) sudo mkdir -p /etc/sddm/themes
 2) sudo cp -a /usr/share/sddm/themes/breeze /etc/sddm/themes/custom-breeze
 3) verify: ls /etc/sddm/themes/custom-breeze
