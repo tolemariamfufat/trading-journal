@@ -1,4 +1,4 @@
-- if 01:00 expands away from 18:00 reversal, then seek 08:00 candle continuation
-- If 01:00 reverses:00  off the 18:00 candle range, then seek 08:00 candle continuation
-- if 18:00 and 01:00 fail to establish a reversal (if one is bearish the other is bullish), then seek 08:00 candle reversal
-- 
+- if 01:00 expands away from 18:00 reversal (bullish trend continuation), then seek 08:00 candle continuation
+- If 01:00 reverses:00  off the 18:00 candle range (one reverses the other), then seek 08:00 candle continuation
+- if 18:00 and 01:00 fail to establish a reversal (a kind of consolidation), then seek 08:00 candle reversal
+- If 18:00 and 01:00 fail to establish a reversal (if both are bearish/bullish), then seek 08:00 candle reversal 
