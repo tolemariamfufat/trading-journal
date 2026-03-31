@@ -13,13 +13,9 @@ Evaluation of  specific probabilities and scenarios:
 ### 1. The Institutional Expansion Scenario
 
 - **Your Logic:** If 01:00 expands away from 18:00 (bullish trend continuation), then seek 08:00 candle continuation.
-    
 - **Probability:** **High**
-    
 - **Evaluation:** This is a **Clean Trend Day**. If London (01:00) breaks the Asian (18:00) range and maintains that momentum, it confirms that institutional order flow is one-sided.
-    
 - **Action:** The 08:00 New York candle typically creates a small "fair value gap" (FVG) or a shallow pullback before continuing the established London move.
-    
 
 ### 2. The Reversal-of-Range Scenario
 
