@@ -10,31 +10,36 @@ Evaluation of  specific probabilities and scenarios:
 | 01:00 Sweeps 18:00 then Reverses     | Continuation       | High        | Judas Swing; London trapped traders before true move. |
 | Both sessions "Flat" (Consolidation) | Expansion/Reversal | High        | Coiling effect; 08:00 clears built-up liquidity.      |
 | Both sessions "Overextended"         | Reversal           | Moderate    | Mean Reversion; 08:00 acts as profit taking.          |
-### 1. The Expansion Scenario
-> **Your Logic:** If 01:00 expands away from 18:00 reversal (bullish trend continuation), then seek 08:00 candle continuation.
-- **Probability:** **High**.
-- **Evaluation:** This describes a **"Seek and Destroy"** or a clean trend day. If London (01:00) takes out the Asian (18:00) range and continues in the same direction, it confirms institutional order flow. The 08:00 New York open typically provides a "silver bullet" entry or a small pullback before continuing that established trend.
-- **Market Context:** This usually happens when there is a clear daily bias and no major high-impact news until the afternoon.
+### 1. The Institutional Expansion Scenario
+
+- **Your Logic:** If 01:00 expands away from 18:00 (bullish trend continuation), then seek 08:00 candle continuation.
+    
+- **Probability:** **High**
+    
+- **Evaluation:** This is a **Clean Trend Day**. If London (01:00) breaks the Asian (18:00) range and maintains that momentum, it confirms that institutional order flow is one-sided.
+    
+- **Action:** The 08:00 New York candle typically creates a small "fair value gap" (FVG) or a shallow pullback before continuing the established London move.
+    
+
 ### 2. The Reversal-of-Range Scenario
 
-> **Your Logic:** If 01:00 reverses off the 18:00 candle range (one reverses the other), then seek 08:00 candle continuation.
-- **Probability:** **Moderate to High**.
-- **Evaluation:** This is the classic **"Judas Swing"** profile. London (01:00) often creates a "fake-out" move by sweeping the high or low of the Asian (18:00) range before reversing to the "true" direction of the day.
-- **Action:** Once London has established the "true" direction after that sweep, the 08:00 NY candle will most likely continue that new direction to reach the opposite side of the daily range.
-
+- **Your Logic:** If 01:00 reverses off the 18:00 candle range (one reverses the other), then seek 08:00 candle continuation.
+- **Probability:** **Moderate to High**
+- **Evaluation:** This is the **Judas Swing** profile. London (01:00) often manipulates the market by sweeping the high or low of the 18:00 range to engineer liquidity before reversing to the "true" daily direction.
+- **Action:** Once the 01:00 candle has swept the 18:00 liquidity and reversed, the 08:00 NY candle will likely continue that new, corrected direction.
 ### 3. The Consolidation/Failure Scenario
 
-> **Your Logic:** If 18:00 and 01:00 fail to establish a reversal (consolidation), then seek 08:00 candle reversal.
-- **Probability:** **High**.
-- **Evaluation:** If both the Asian and London sessions stay within a tight, sideways range, it means **liquidity is building** on both sides.
-- **Action:** New York (08:00) is the "Volatility King". When the first two sessions consolidate, the 08:00 candle often creates a massive expansion. Because no trend was set, the 08:00 move is frequently a sharp reversal of whatever "mini-trend" tried to form in the final hour of London.
+- **Your Logic:** If 18:00 and 01:00 fail to establish a reversal (consolidation), then seek 08:00 candle reversal.
+- **Probability:** **High**
+- **Evaluation:** This is an **Accumulation/Expansion** profile. When the first two sessions stay within a tight range, it means liquidity is "resting" just above and below that box.
+- **Action:** The 08:00 candle often acts as a catalyst. If a small "mini-trend" tried to creep out of consolidation right before 08:00, the NY open often snaps it back (reverses it) to hunt the liquidity on the opposite side of the day's range.
 
 ### 4. The Single-Direction Failure Scenario
 
-> **Your Logic:** If 18:00 and 01:00 fail to establish a reversal (both are bearish or both are bullish), then seek 08:00 candle reversal.
-- **Probability:** **Moderate** (Requires a Liquidity Sweep).
-- **Evaluation:** If both sessions move in the same direction without any pullback, the market becomes **"overextended"**.
-- **Action:** By 08:00, the move has often reached a major daily liquidity level (like Previous Day High/Low). In this case, New York often acts as the **"Profit Taking"** session, causing a sharp reversal back toward the middle of the day's range.
+- **Your Logic:** If 18:00 and 01:00 fail to establish a reversal (both are bearish/bullish), then seek 08:00 candle reversal.
+- **Probability:** **Moderate** (Requires a Liquidity Sweep)
+- **Evaluation:** This is an **Overextended/Mean Reversion** profile. If both sessions run hard in one direction without a pullback, the market is likely reaching a "Key Higher Timeframe" level (like the Previous Day High/Low).
+- **Action:** By 08:00, the market is often exhausted. The 08:00 candle frequently initiates a profit-taking reversal, moving back toward the "Opening Price" of the day (the 17:00 NY time price).
 
 **Hidden variables** 
 1. The "London Lunch" Trap (10:00 – 12:00)
