@@ -13,15 +13,16 @@ Day EQ:
 - he Inducement: Price sweeps a low, moves up slightly, and forms an FVG. If it doesn't break a significant swing high on a higher timeframe, that move is likely just a "stop run" to gather more sell orders before hitting the real target further down.
 - The Confirmation: Only trust the "near" target if price sweeps it AND then creates a forceful displacement that breaks a clear HTF market structure point.
 
-| **Component**   | **Your Professional Rule**                                |
-| --------------- | --------------------------------------------------------- |
-| **Identity**    | Scalper (Precision & Speed).                              |
-| **Model**       | ICT 2022 (HTF Bias + Liquidity Raid + MSS + 50% FVG).     |
-| **Assets**      | GBPUSD/EURUSD (London) & USTech (New York).               |
-| **Risk**        | Fixed 1:1 Reward-to-Risk.                                 |
-| **Volume**      | Max 2 Trades per day (Win or Loss).                       |
-| **Hard Filter** | **Zero trades** during High-Impact News (CPI, NFP, FOMC). |
-| **Mindset**     | No revenge; analyze errors and move to other duties.      |
+| **Component**   | **Your Professional Rule**                                                                                                                                              |
+| --------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Identity**    | Scalper (Precision & Spe                                                                                                                                                |
+| **Model**       | ICT 2022 (HTF Bias + Liquidity Raid + MSS + 50%                                                                                                                         |
+| **Assets**      | GBPUSD/EURUSD (London) & USTech (Ne                                                                                                                                     |
+| **Risk**        | Fixed 1:1 Rewar                                                                                                                                                         |
+| **Volume**      | Max 2 Trades per day (W                                                                                                                                                 |
+| **Hard Filter** | **Zero trades** during High-Impact News (CP                                                                                                                     ).      |
+| **Mindset**     | No revenge; analyze errors and move                                                                                                                                     |
+| Behind a **Swing High/Low** that caused a break in structure; Below/Above the "Displacement" Candle (The $FVG$ Root); The "Mean Threshold" of an Order Block ($OB$);  $ Root);  ructure;  |
 ## 💡 Final Strategy for Your Edge:
 
 1. **Wait for SMT Divergence** (EUR sweeps, GBP fails).
