@@ -23,3 +23,26 @@ A core tenet for Larry is that the **Specialists (Market Makers)** are constantl
 ### 3. ICT Translation: The "Scripted" Algorithm
 
 In **ICT terms**, this "Most Important Belief" is the **Institutional Narrative.** It is the belief that price is **delivered**, not discovered.
+### 4. The "Math over Myth" Belief
+
+Larry’s most personal belief is that **the math of money management is the only thing you truly own.**
+
+- You can't control the **US30** or the **US100**.
+    
+- You _can_ control your **Fixed Fractional Position Size**.
+    
+- **The Belief:** If the math is sound, the individual trade is irrelevant. You are a "Business Owner" collecting "Honey," not a gambler chasing a "Big Score."
+    
+
+### 5. Summary: The Yardstick as a Faith
+
+When you use your **00:00–00:30 Standard Deviations**, you are expressing this belief. You are saying:
+
+1. I believe the **Midnight Open** is the "Fair Value" of the day.
+    
+2. I believe the **Algorithm** has a limit to its reach (the -4.0 SD).
+    
+3. I believe that by **Looking Before I Leap**, I can avoid being the "Liquidity" for the Specialists.
+    
+
+> **Larry's Bottom Line:** "I believe that tomorrow the sun will rise, and the market will offer a setup. My only job is to be there with enough capital and enough discipline to take it."
