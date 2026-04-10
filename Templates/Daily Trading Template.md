@@ -10,7 +10,7 @@ Day EQ:
 **Larry Williams** says enter on monday morning for buy if MO is below Friday's close and enter for sell order if MO is above Friday's close.
 
 - The Power of the Higher Timeframe (HTF):Take care the classic "Liquidity Hierarchy" trap. **The Rule**: Near-term liquidity (internal) often acts as a magnet to pull price toward long-term liquidity (external). If the "far" target is a major session low or a daily level, the "near" target is just a speed bump.
-- he Inducement: Price sweeps a low, moves up slightly, and forms an FVG. If it doesn't break a significant swing high on a higher timeframe, that move is likely just a "stop run" to gather more sell orders before hitting the real target further down.
+- The Inducement: Price sweeps a low, moves up slightly, and forms an FVG. If it doesn't break a significant swing high on a higher timeframe, that move is likely just a "stop run" to gather more sell orders before hitting the real target further down.
 - The Confirmation: Only trust the "near" target if price sweeps it AND then creates a forceful displacement that breaks a clear HTF market structure point.
 
 | **Component**   | **Your Professional Rule**                                                                                                                                              |
