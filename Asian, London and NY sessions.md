@@ -42,3 +42,27 @@ Here is the breakdown of why ICT considers this a strong signal for the 08:00 NY
 
 The Logical Flow (The "Power of Three")
 In this scenario, the market is following a classic "Accumulation-Manipulation-Distribution" sequence across sessions.
+
+When 18:00 (Asian) and 01:00 (London) fail to establish a clear reversal or directional expansion, it suggests the market is still in a state of Accumulation or indecision.
+
+In ICT logic, this is not a sign to stop trading, but rather a shift in expectations: The "True Day" has likely been delayed until the New York Open (08:00).
+
+The Logic of the "Delayed" Reversal
+If the market doesn't reverse or expand during the London Killzone (01:00), it implies that liquidity pools (Asian highs/lows) remain intact. The algorithm is waiting for the injection of higher volume at the New York Open to "hunt" those levels.
+
+18:00 (Asian): Consolidation (Range-bound).
+
+01:00 (London): Failed to clear the Asian range or failed to show displacement.
+
+08:00 (New York): This becomes the "New York Reversal" window. It is the prime time for the algorithm to create the "Judas Swing" (false move) or the final liquidity sweep that sets the trend for the remainder of the afternoon.
+
+When the 18:00 (Asian) and 01:00 (London) sessions have already experienced significant expansion, ICT principles suggest you are likely looking at an "Exhausted Daily Range" scenario.
+
+In the ICT methodology, the market is viewed as having a "daily budget" of volatility—this is often monitored via the Average Daily Range (ADR). If the market has already "spent" its expected move for the day during the London Killzone, there is statistically little room left for another explosive expansion in New York.
+
+The ICT Perspective on "No Room Left"
+When the market has already trended significantly before the 08:00 New York open, ICT teaches that you should avoid looking for "continuation" trades. Instead, you are looking at one of two high-probability market profiles:
+
+The Reversal Profile: The market has hit a higher-timeframe objective or liquidity pool and is now likely to rotate back toward the daily open or into a discount/premium level.
+
+The Consolidation/Chop Profile: The market is "done" for the day. It will likely drift sideways or slowly grind, making it difficult to execute high-precision scalps.
