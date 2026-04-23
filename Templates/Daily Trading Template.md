@@ -27,6 +27,24 @@ Day EQ:
 | Tier 1 (The Magnets)                                                                                                                                                                     | Daily High/Low, Previous Day High/Low                                                                                                                              | These are the "Big Fish" liquidity pools. The algorithm _wants_ to sweep these. These lines should be the thickest/brightest on your chart.          |
 | Tier 2 (The Anchors)                                                                                                                                                                     | Midnight Open (MO), London/NY Open                                                                                                                                 | These are your "Time/Price" references. If price is above MO, you are in a "Premium/Discount" logic state. These should be a different, muted color. |
 | Tier 3 (The Context)                                                                                                                                                                     | Asian/London Sessions, NDOG, 9:30 ORG                                                                                                                              | These provide the "Range" for the day. Use dashed lines for these so they don't overpower the Tier 1/Tier 2 levels.                                  |
+### How to Modify Your Routine for "Speed"
+
+Since you already have a comprehensive list, don't stop doing it, but **automate the distinction** so your eyes recognize the levels instantly:
+
+1. **Color Coding:**
+    
+    - **Red/Orange:** Tier 1 (Daily/Previous Day Highs/Lows). This tells your brain: _"Danger/Opportunity Zone—Liquidity Raid imminent."_
+        
+    - **Blue/Gold:** Tier 2 (Opens/MO). This tells your brain: _"Directional bias check."_
+        
+    - **Gray/Dashed:** Tier 3 (Session ranges). This tells your brain: _"Internal structure/minor liquidity."_
+        
+2. **The "Live" vs. "Static" Rule:**
+    
+    - Keep your **Tier 1 and 2** lines on your chart throughout the entire session.
+        
+    - If you find that the **Tier 3** lines (the session ranges) are making your 5m chart look "busy," delete them _after_ the New York Open (08:30–09:00 EST). Once the NY session is in full swing, the Asian range is often irrelevant compared to the Daily High/Low.
+- **The Guardrail:** Remind yourself: **"Just because the price hits a line does not mean I trade."** You still require your **Model** (Liquidity Raid + MSS + FVG) to trigger the entry. The lines are just the _stage_; your Model is the _actor_.
 ## 💡 Final Strategy for Your Edge:
 
 1. **Wait for SMT Divergence** (EUR sweeps, GBP fails).
