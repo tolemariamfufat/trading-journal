@@ -18,91 +18,56 @@ Day EQ:
 ### I. The Core Methodology
 
 - **Identity:** You are a surgical Scalper. Speed and precision are your primary assets.
-    
 - **Model:** You trade exclusively using the **ICT 2022 Model**: (HTF Bias + Liquidity Raid + Market Structure Shift + Fair Value Gap).
-    
 - **Assets:** GBPUSD and EURUSD (London Session); USTech (New York Session).
-    
 - **Volume:** **Strict limit of 2 trades per day.** No exceptions, no "one more for luck."
 - **Risk:** Fixed 1:1 Reward Ratio.
 ### II. Directional Bias & Mapping (The Institutional Map)
 
 - **Premium/Discount Matrix:**
-    
     - **Sell-Only Zone (Premium):** 0.50 – 1.0 (Only look for shorts).
-        
     - **Buy-Only Zone (Discount):** 0.0 – 0.50 (Only look for longs).
-        
 - **Anchor Logic (Continuation):** * If price fails to reclaim **0.25** in a bearish move, expect continuation lower.
-    
     - If price fails to reclaim **0.75** in a bullish move, expect continuation higher.
-        
 - **Tiered Liquidity Levels:**
-    
     - **Tier 1 (Magnets):** Daily High/Low, Previous Day High/Low. (Thickest lines; primary targets).
-        
     - **Tier 2 (Anchors):** Midnight Open (MO), London/NY Open. (Price/Time references; muted color).
-        
     - **Tier 3 (Context):** Asian/London Sessions, NDOG, 9:30 ORG. (Dashed lines; define the day's range).
-        
-
 ### III. Time-Based Precision (Killzones & Macros)
 
 - **Killzones (The "On" Switch):** You are only active during the London Killzone (02:00–05:00 EST) and the New York Killzone (08:00–11:00 EST).
-    
 - **Macro Precision Triggers:** You only execute when your 2022 Model lines up with these specific windows:
-    
     - **Asian:** 19:00 (Initial), 20:00-00:00 (Killzone), 00:00 (Midnight Open).
-        
     - **London:** 02:33-03:00 (Open Macro), 04:03-04:30 (Trend Macro).
-        
     - **New York (AM):** 08:50-09:10 (Pre-Market), 09:50-10:10 (Silver Bullet), 10:50-11:10 (London Close).
-        
     - **New York (PM):** 11:50-12:10 (Lunch), 01:10-01:40 (PM Kick-off), 03:15-03:45 (20-6 Macro).
-        
-- **Invalidation Rule:** If a setup does not trigger within 5 minutes of the Macro window closing, the opportunity is dead.
-    
-
+- **Invalidation Rule:** If a setup does not trigger within 5 minutes of the Macro window closing, the opportunity is dead
 ### IV. Hard Filters & Safety Rails
 
-- **News Filter:** Zero trades during High-Impact News (CPI, NFP, etc.).
-    
-- **ADR Limit:** No trades if >80% of the Average Daily Range has been consumed.
-    
-- **FVG Mitigation:** No trades if the Fair Value Gap has already been mitigated (First Touch Only).
-    
+- **News Filter:** Zero trades during High-Impact News (CPI, NFP, etc.)
+- **ADR Limit:** No trades if >80% of the Average Daily Range has been consumed
+- **FVG Mitigation:** No trades if the Fair Value Gap has already been mitigated (First Touch Only).  
 - **Stop/Entry Logic:** Your entry/stop is placed:
-    
     - Behind a Swing High/Low that caused a break in structure.
-        
     - Below/Above the "Displacement" Candle (The FVG Root).
-        
     - At the "Mean Threshold" of an Order Block (OB).
-        
-
 ### V. Mindset & Evaluation
 
 - **Discipline:** No revenge trading. If the market isn't showing your specific pattern inside your specific macro, the market is closed to you.
-    
 - **Analysis:** Post-trade analysis is mandatory. If you lose, identify which filter failed (Timing? Bias? Structure?).
-    
 - **Boredom:** If you find yourself staring at the chart outside of your Killzones or Macros, **walk away.** You are not "missing out"—you are protecting your capital from low-liquidity chop.
 ### How to Modify Your Routine for "Speed"
 
 Since you already have a comprehensive list, don't stop doing it, but **automate the distinction** so your eyes recognize the levels instantly:
 
 1. **Color Coding:**
-    
     - **Red/Orange:** Tier 1 (Daily/Previous Day Highs/Lows). This tells your brain: _"Danger/Opportunity Zone—Liquidity Raid imminent."_
-        
     - **Blue/Gold:** Tier 2 (Opens/MO). This tells your brain: _"Directional bias check."_
-        
     - **Gray/Dashed:** Tier 3 (Session ranges). This tells your brain: _"Internal structure/minor liquidity."_
         
 2. **The "Live" vs. "Static" Rule:**
     
     - Keep your **Tier 1 and 2** lines on your chart throughout the entire session.
-        
     - If you find that the **Tier 3** lines (the session ranges) are making your 5m chart look "busy," delete them _after_ the New York Open (08:30–09:00 EST). Once the NY session is in full swing, the Asian range is often irrelevant compared to the Daily High/Low.
 - **The Guardrail:** Remind yourself: **"Just because the price hits a line does not mean I trade."** You still require your **Model** (Liquidity Raid + MSS + FVG) to trigger the entry. The lines are just the _stage_; your Model is the _actor_.
 ## 💡 Final Strategy for Your Edge:
