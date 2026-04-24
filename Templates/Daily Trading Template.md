@@ -42,7 +42,7 @@ Day EQ:
     - **New York (AM):** 08:50-09:10 (Pre-Market), 09:50-10:10 (Silver Bullet), 10:50-11:10 (London Close).
     - **New York (PM):** 11:50-12:10 (Lunch), 01:10-01:40 (PM Kick-off), 03:15-03:45 (20-6 Macro).
 - **Invalidation Rule:** If a setup does not trigger within 5 minutes of the Macro window closing, the opportunity is dead
-- 
+- **The Time Sentinel Rule:** "I do not acknowledge the existence of price patterns outside of the designated Killzones and Macros. Any 'setup' I see outside of these times is, by definition, a trap. I am not allowed to interact with the market until the clock enters my active window."
 ### IV. Hard Filters & Safety Rails
 
 - **News Filter:** Zero trades during High-Impact News (CPI, NFP, etc.)
