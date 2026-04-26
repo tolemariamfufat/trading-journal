@@ -19,7 +19,7 @@ Day EQ:
 
 - **Identity:** You are a surgical Scalper. Speed and precision are your primary assets.
 - **Model:** You trade exclusively using the **ICT 2022 Model**: (HTF Bias + Liquidity Raid + Market Structure Shift + Fair Value Gap).
-- **Assets:** GBPUSD and EURUSD (London Session); USTech (New York Session).
+- **Assets:** GBPUSD and EURUSD (London Session); USTECH (New York Session).
 - **Volume:** **Strict limit of 2 trades per day.** No exceptions, no "one more for luck."
 - **Risk:** Fixed 1:1 Reward Ratio.
 ### II. Directional Bias & Mapping (The Institutional Map)
