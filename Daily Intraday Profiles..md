@@ -1,3 +1,54 @@
+**ICT's primary daily profiles one by one:**
+
+1. The Classic Buy/Sell Day
+This is the "Bread and Butter" profile and matches the video’s P2.
+
+Behavior: Price consolidates in Asia (Accumulation), drops below the opening price in London to create the Low of the Day (Manipulation/Judas Swing), and then trends higher through New York (Distribution).
+
+Key Logic: It follows the Open-Low-High-Close (OLHC) structure for a bullish day.
+
+2. The London Trend Move (London Expansion)
+This matches the video’s P1.
+
+Behavior: There is no manipulation or "stop hunt" at the London open. Instead, London simply breaks out of the Asian range and starts trending immediately.
+
+Key Logic: New York typically acts as a continuation session for the move that London started.
+
+3. The London Reversal Profile
+Behavior: London creates a sustained trend move that runs into a High-Timeframe (HTF) objective (like a Daily FVG or old high/low). During the New York session (usually around 10:00 AM EST), the market reverses completely.
+
+Key Logic: The "real" move of the day is the reversal, often triggered by a New York news event.
+
+4. The Seek and Destroy Profile
+This matches the video’s P3.
+
+Behavior: The market is in a "protracted consolidation." It sweeps the Asian High, then reverses to sweep the Asian Low, trapping traders on both sides.
+
+Key Logic: This is a low-probability profile usually seen on "red folder" news days (like FOMC or NFP) or during a holiday week. It is designed to engineer liquidity before a big move.
+
+5. The London Swing to Z-Day (Consolidation Day)
+Behavior: After a large expansion day (a big move), the market often fails to trend. It might sweep a level in London but then just hovers in a range for the rest of the day.
+
+Key Logic: It results in a "Doji" or a small-bodied candle on the daily chart. ICT teaches to avoid trading these "equilibrium" days.
+
+6. The Consolidation Raid on News
+Behavior: Price stays strictly within a tight range through Asia and London. When a high-impact news event drops (8:30 AM or 10:00 AM EST), price aggressively "raids" a liquidity pool and then expands in the true direction.
+
+Key Logic: The news is used as the "fuel" for the manipulation and distribution phases.
+
+Which one should you focus on?
+If you are finding the "P-system" from the video simpler, keep using it!
+
+Video P1 = ICT London Expansion
+
+Video P2 = ICT Classic Buy/Sell Day (Judas Swing)
+
+Video P3 = ICT Seek and Destroy
+
+Video P4 = ICT New York Reversal
+
+The video is essentially a "cheat sheet" for these original ICT concepts. Since you mentioned you use Aurora/Linux and like technical methodologies, you might find the mechanical "P-labeling" easier to track in a spreadsheet or logbook than the more fluid names ICT uses.
+
 | **Profile**         | **Typical Action**            | **Best Entry Window**        |
 | ------------------- | ----------------------------- | ---------------------------- |
 | **London Trend**    | Continuation of bias          | 2:00 – 4:00 AM (FVG entry)   |
