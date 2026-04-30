@@ -26,3 +26,20 @@ This is what you observed on GBPUSD.
 - **The Trap:** It’s designed to stop out both buyers and sellers before the real move happens the next day.
 ## 6. Consolidation Raid on News (The News Profile)
 - **Behavior:** The market remains in a tight consolidation during both Asia and London. All the "manipulation" and "expansion" are packed into 5 minutes during a news release (like CPI).
+
+Daily Profile
+The 6 Daily Profiles
+The video categorizes every trading day into one of these six templates:
+
+P1 (Trending/Continuation): Asia trends in one direction, London expands in that same direction, and New York continues the trend. There is no manipulation.
+
+P1B (Delayed Continuation): Asia sets a direction, but London stays quiet and consolidates inside Asia’s range. New York then "breaks out" and continues Asia's original direction.
+
+P2 (The Classic Sweep/Judas Swing): London runs the high or low of the Asia range to grab liquidity and then reverses. New York follows London’s reversal direction.
+
+P3 (Seek & Destroy/Double Sweep): Both Asia and London consolidate in a tight range. The 8:00 AM candle sweeps both the high and the low before New York picks a sharp direction.
+
+P4 (New York Reversal with Sweep): Asia and London are aligned (both moving up or down), but New York sweeps the London extreme and reverses the entire trend.
+
+P4B (New York Reversal without Sweep): Similar to P4, but New York reverses immediately at the open without a "fake-out" or liquidity sweep of the London high/low.
+
