@@ -1,11 +1,17 @@
-1. Creating and Entering
-Action,Command
-Create (Fedora),distrobox create --name fedora-box --image fedora:40
-Create (Ubuntu),distrobox create --name ubuntu-box --image ubuntu:22.04
-Enter,distrobox enter fedora-box
-Exit,exit (type this while inside the container)
-2. Checking Status
+### 1.Creating and Entering
+
+Create (Fedora)
+distrobox create --name fedora-box --image fedora:40
+Create (Ubuntu)
+distrobox create --name ubuntu-box --image ubuntu:22.04
+Enter
+distrobox enter fedora-box
+Exit
+exit (type this while inside the container)
+### 2.Checking Status
+
 distrobox list
+
 **List downloaded images (Blueprints):** 
     ```bash
     podman images
