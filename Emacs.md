@@ -53,7 +53,7 @@ SPC c c (Compile/Run): Often mapped to run your current script. You can set this
 
 4. The "Window Master" (Managing Space)
 As you scale your complexity, you’ll want multiple things on screen:
-
+SPC b k: kill current buffer
 SPC w v: Split window Vertically (Chart on left, Code on right).
 
 SPC w s: Split window Shorizontally.
