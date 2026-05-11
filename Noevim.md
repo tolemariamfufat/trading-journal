@@ -28,3 +28,50 @@ Once you save and restart Neovim:
 3. Press **Space**, then quickly tap **l**, then tap **i**.
     
 4. **The Result:** Look at the very bottom left of your screen. It should say: `LSP Status: Active (pylsp)`.
+### Verification:
+
+- **File Tree:** Press **`Ctrl + n`**. Does the sidebar appear on the left?
+    
+- **Terminal:** Press **`Shift + T`**. Does the terminal open at the bottom?
+    
+- **Trading:** Inside that terminal, type **`report`**.
+### 📂 Opening Files
+
+- **`<CR>` (Enter)**: Open the file in the current window.
+    
+- **`v`**: Open the file in a **Vertical Split** (side-by-side).
+    
+- **`x`**: Open the file in a **Horizontal Split** (top-bottom).
+    
+- **`t`**: Open the file in a **New Tab**.
+### File Management
+
+- **`a`**: **Add** a new file or directory (add a `/` at the end for a folder).
+    
+- **`d`**: **Delete** a file (it will ask for confirmation).
+    
+- **`r`**: **Rename** a file.
+    
+- **`x` / `c` / `p`**: **Cut / Copy / Paste** files.
+### Navigation & View
+
+- **`H`**: Toggle **Hidden Files** (those starting with a `.`).
+    
+- **`R`**: **Refresh** the tree (useful if you created a file in the terminal).
+    
+- **`W`**: **Collapse** all open directories.
+    
+- **`E`**: **Expand** all directories.
+    
+- **`-`**: Move the directory root **Up** one level.
+    
+- **`q`**: **Close** the tree window.
+    
+- **`g?`**: Open the **Help** menu inside the tree to see all available keys.
+### Pro-Tip for your Trading Workflow
+
+If you want to quickly jump between your code and the file tree without using the mouse:
+
+1. **`Ctrl + w` then `h`**: Move your cursor **left** into the tree.
+    
+2. **`Ctrl + w` then `l`**: Move your cursor **right** back into your code.
