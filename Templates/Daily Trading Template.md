@@ -4,6 +4,7 @@ London open:
 NY open:
 9:30 Opening Range:
 NDOG:
+NWOG:
 Yester Day High-Low:
 Day EQ:
 GBPUSD MO:
