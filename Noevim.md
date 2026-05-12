@@ -75,3 +75,21 @@ If you want to quickly jump between your code and the file tree without using th
 1. **`Ctrl + w` then `h`**: Move your cursor **left** into the tree.
     
 2. **`Ctrl + w` then `l`**: Move your cursor **right** back into your code.
+vim.keymap.set('t', '<Esc>', [[<C-\><C-n>]], { silent = true })
+This specific line of code is essentially a "teleportation" command that lets you escape the terminal and get back to your editor tools.
+
+### The Breakdown
+
+In Neovim, the terminal is "greedy." When you are inside it (Terminal Mode), it swallows every key you press (like `i`, `w`, or `Esc`) and sends them to the shell instead of the editor.
+
+The only way Neovim allows you to "break out" by default is the chord **`Ctrl-\`** followed by **`n`**.
+
+Here is what each part of that command does:
+
+- **`'t'`**: This tells Neovim the mapping only applies to **Terminal Mode**.
+    
+- **`'<Esc>'`**: This is the trigger. You want the `Esc` key to be your way out.
+    
+- **`[[<C-\><C-n>]]`**: This is the "secret handshake." It tells Neovim: "When I hit Escape, pretend I actually hit `Ctrl-\` and then `n`".
+    
+- **`{ silent = true }`**: This prevents a message from popping up in the bottom command line every time you hit the key, keeping your workspace clean.
