@@ -1,5 +1,13 @@
 ### Returning from `gd` (Go to Definition)
 
+### Summary of your "Fluid" Navigation:
+
+|**Action**|**Key Combination**|
+|---|---|
+|**Open/Hide Terminal**|`Shift + T`|
+|**Jump Up (to Code)**|`Ctrl + k`|
+|**Jump Down (to Terminal)**|`Ctrl + j`|
+|**Enter "Normal Mode"**|`Esc`|
 When you hit `gd`, Neovim often jumps you to a different line or even a different file. To "teleport" back to exactly where you were:
 
 - **The Shortcut:** Press **`Ctrl` + `o`** (think "Jump **O**ut").
