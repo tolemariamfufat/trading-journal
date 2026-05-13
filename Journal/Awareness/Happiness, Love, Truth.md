@@ -2,4 +2,4 @@
 - Love is the collapse of separation.
 - Truth is being aware of being aware. 
 - Truth doesn't deny or assert itself, it is still. 
-- All knowledge becomes the ignorance of reality (truth)
+- All knowledge separated from awareness becomes the ignorance of reality (truth).
