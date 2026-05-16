@@ -8,7 +8,16 @@ If you run `brew leaves`, you’ll see the **Top-Level** tools you likely instal
 
 - **System & Shell:** `atuin` (shell history), `starship` (prompt), `zoxide` (smarter `cd`), `direnv` (env switcher), `mise` (dev tool manager).
     
-- **Modern CLI Replacements:** `bat` (better `cat`), `eza` (better `ls`), `fd` (better `find`), `ripgrep` (better `grep`), `ugrep`.
+- **Modern CLI Replacements:** `bat` (better `cat`), `eza` (better `ls`), `fd` (better `find`), `ripgrep` (better `grep`), `ugrep`. 
+-Here is how to read the whole list with that formula in mind:
+
+- bat is a better version of cat
+
+- eza is a better version of ls
+
+- fd is a better version of find
+
+- ripgrep is a better version of grep
     
 - **Utils:** `tealdeer` (fast `tldr`), `trash-cli` (safe deleting), `yq` (YAML processor), `gh` (GitHub CLI).
     
