@@ -1,3 +1,4 @@
+If (0) of the first one breaks; 
 1. REBOOT -> Select the 2nd option (Rollback) in the GRUB menu.
 2. OPEN TERMINAL -> Lock down your safe haven:
    sudo ostree admin pin 2
