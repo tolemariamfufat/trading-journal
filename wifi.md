@@ -14,3 +14,6 @@ wireless | cut -d: -f1)"
 sudo nano /etc/systemd/resolved.conf
 
 sudo systemctl restart systemd-resolved
+
+
+resolvectl status wlo1
