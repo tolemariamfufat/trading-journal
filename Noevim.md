@@ -1,3 +1,29 @@
+### Method 2: The Core Neovim Lifecycle (Suspend & Resume)
+
+If you prefer to run `cargo run` in your actual native host terminal shell rather than splitting the editor screen:
+
+1. While editing `src/main.rs`, press **`Ctrl-z`**.
+    
+    - _This instantly suspends Neovim and drops you right back out to your host bash/zsh prompt._
+        
+2. Run your test command:
+    
+    Bash
+    
+    ```
+    cargo run
+    ```
+    
+3. When you're ready to jump right back into the file exactly where you left off, type:
+    
+
+Bash
+
+```
+   fg
+```
+
+_(Short for foreground)._ Neovim will snap right back onto your screen instantly.
 ### Returning from `gd` (Go to Definition)
 
 ### Summary of your "Fluid" Navigation:
