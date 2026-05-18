@@ -1,3 +1,4 @@
+
 | **Currency Pair** | **Volatility Level**              | **Optimal Trading Window (NY Time)** | **Prime Economic Catalysts**                |
 | ----------------- | --------------------------------- | ------------------------------------ | ------------------------------------------- |
 | **AUD/JPY**       | **Very High**                     | **8:00 PM – 12:00 AM** (Midnight)    | RBA Data, China PMIs, Iron Ore              |

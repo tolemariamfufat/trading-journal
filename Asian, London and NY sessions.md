@@ -1,16 +1,16 @@
-1. The 18:00 Reversal (Asian Session Setup)
+**1. The 18:00 Reversal (Asian Session Setup)
 Context: At 18:00 EST, the Asian session begins. In ICT theory, this is often the "Accumulation" phase.
 
 The Reversal: You are looking for the market to establish a high or low for the day (a "reversal" point). If the market sweeps liquidity or hits a key Higher Timeframe (HTF) level during the Asian session, this reversal point effectively sets the "anchor" for the rest of the day's move.
 
-2. The 01:00 Expansion (London Killzone)
+**2. The 01:00 Expansion (London Killzone)
 Context: 01:00 EST marks the start of the London Killzone.
 
 The Expansion: This is where the "Manipulation" or "Expansion" phase usually occurs. If the price "expands away" from the 18:00 reversal point during this window, it confirms that the institutional algorithm has picked a direction.
 
 Why it matters: If the market expands strongly away from the Asian range, it suggests that the "smart money" is positioning for a directional move rather than remaining in consolidation.
 
-3. The 08:00 Continuation (New York Killzone)
+**3. The 08:00 Continuation (New York Killzone)
 Context: 08:00 EST is the start of the New York AM Killzone.
 
 The Continuation: By this time, the "London move" has likely exhausted its initial thrust. The 08:00 window is frequently used by the algorithm to offer a continuation setup.
