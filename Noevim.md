@@ -13,8 +13,7 @@ If you prefer to run `cargo run` in your actual native host terminal shell rathe
     ```
     cargo run
     ```
-    
-3. When you're ready to jump right back into the file exactly where you left off, type:
+    1. When you're ready to jump right back into the file exactly where you left off, type:
     
 
 Bash
