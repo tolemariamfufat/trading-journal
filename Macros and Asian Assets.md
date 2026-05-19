@@ -1,22 +1,30 @@
 
- 
- **1. The 18:50 – 19:10 Macro (The Sydney Open Run)
+ Here is the complete, uninterrupted master list of all algorithmic ICT macro time windows.
 
-    The Algorithmic Behavior: This macro triggers shortly after the 18:00 New York day change when Sydney liquidity goes live. The algorithm uses this window to look at the orders resting directly above or below the initial 18:00 opening print.
+Every single macro operates strictly on **New York Local Time (EST/EDT)**.
 
-    What to expect: A quick, sharp hunt or a sudden injection of volume that establishes an early swing high or low for the upcoming evening session. It frequently targets the New Zealand dollar arrays first.
+### The Complete Master Macro List
 
-**2. The 20:50 – 21:10 Macro (The Tokyo Open Engineering)
+- **02:33 AM – 03:00 AM** $\rightarrow$ London Macro 1
+    
+- **04:03 AM – 04:30 AM** $\rightarrow$ London Macro 2
+    
+- **07:50 AM – 08:10 AM** $\rightarrow$ NY AM Macro 1 (Pre-Market / News Alignment)
+    
+- **08:50 AM – 09:10 AM** $\rightarrow$ NY AM Macro 2 (Pre-Market / Open Preparation)
+    
+- **09:50 AM – 10:10 AM** $\rightarrow$ NY AM Macro 3 (Post-Open / Morning Silver Bullet)
+    
+- **10:50 AM – 11:10 AM** $\rightarrow$ NY AM Macro 4 (Late Morning Expansion)
+    
+- **11:50 AM – 12:10 PM** $\rightarrow$ NY Lunch Macro (London Close Rebalancing)
+    
+- **01:10 PM – 01:40 PM** $\rightarrow$ NY PM Macro 1 (Post-Lunch Transition)
+    
+- **02:50 PM – 03:10 PM** $\rightarrow$ NY PM Macro 2 (Afternoon / PM Silver Bullet)
+    
+- **03:15 PM – 03:45 PM** $\rightarrow$ NY PM Macro 3 (The Closing Engine)
 
-    The Algorithmic Behavior: This is the most crucial macro of the evening. It executes right around the official Tokyo equity open.
-
-    What to expect: This macro is notorious for creating a Judas Swing (manipulation run) or executing a sharp stop-hunt. The algorithm will rapidly run price into an older H1/M15 FVG or sweep an existing session high/low to engineer liquidity, setting up the primary trend for the Tokyo Killzone. It is highly active on AUD/JPY and GBP/JPY.
-
-**3. The 22:50 – 23:10 Macro (The Late-Tokyo Distribution)
-
-    The Algorithmic Behavior: This window triggers toward the end of the Tokyo morning session, right before the lunch break in Japanese equity markets.
-
-    What to expect: Price usually experiences an aggressive expansion (distribution) toward a clear pool of liquidity, or it begins a structural retracement back into a newly formed 5-minute or 15-minute Order Block.
     
     Asian session assets
 
