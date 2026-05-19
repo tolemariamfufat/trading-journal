@@ -1,4 +1,4 @@
-The 3 Core Asian Session Macros (24-hour NY Time)
+
  
  **1. The 18:50 – 19:10 Macro (The Sydney Open Run)
 
