@@ -1,3 +1,11 @@
+systemctl --user unmask plasma-gmenudbusmenuproxy.service 
+
+systemctl --user unmask plasma-xembedsniproxy.service
+
+rpm-ostree upgrade
+
+systemctl reboot
+
 ### Pane 1 (Left Side): The Structural Blueprint Map
 
 This pane handles your macro lines in the sand. You should run **`liquidity_scanner.py`** and **`midnight_open.py`** here.
