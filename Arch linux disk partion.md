@@ -124,7 +124,8 @@ cfdisk
         
         ```
         su - to
-        makedir -p 
+        mkdir -p ~/build cd ~/build
+        git clone https://aur.archlinux.org/yay-bin.git cd yay-yay makepkg -si
         git clone https://aur.archlinux.org/yay.git
         cd yay && makepkg -si
         ```
