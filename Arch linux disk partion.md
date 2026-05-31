@@ -1,6 +1,7 @@
 ### Phase 1: Disk Partitioning and Formatting
 cfdisk 
-1. **Partitioning:** `cfdisk /dev/sda` (Select **GPT** label).
+
+1. **Partitioning:** `cfdisk (Select **GPT** label).
     
     - `sda1`: 500MB (EFI System)
         
