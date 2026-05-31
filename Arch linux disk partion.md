@@ -13,7 +13,7 @@ cfdisk
 
 1. **Partitioning:** `cfdisk (Select **GPT** label).
     
-    - `sda1`: 500MB (EFI System)
+    - `sda1`: 512Mb (EFI System)
         
     - `sda2`: Remainder (Linux Filesystem)
    lsblk
