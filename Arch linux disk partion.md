@@ -27,3 +27,5 @@ mount -o subvol=@snapshots /dev/sda2 /mnt/.snapshots)
 7. lsblk
 8. genfstab -U /mnt >> /mnt/etc/fstab
 9. cat /mnt/etc/fstab
+10. pacstrap -K /mnt base linux linux-firmware sudo vim
+11. 
