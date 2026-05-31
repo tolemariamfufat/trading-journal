@@ -10,3 +10,5 @@
 	2. btrfs subvolume create /mnt/@home
 	3. btrfs subvolume create /mnt/@snapshots
 	4. btrfs subvolume create /mnt/@var_log
+7. umount /mnt
+8. 
