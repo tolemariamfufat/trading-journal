@@ -33,3 +33,8 @@ mount -o subvol=@snapshots /dev/sda2 /mnt/.snapshots)
 13. timedatectl set-timezone [PLACE]
 14. hwclock --systohc
 15. vim /etc/locale.gen (uncomment the lince #en_us.UTF-8 UTF-8)
+16. vim /etc/locale.conf (write this line in it: LANG=en_US.UTF-8)
+17. vim /etc/hostname (write arch)
+18. vim /etc/hosts (check if it is correct)
+19. passwd
+20. 
