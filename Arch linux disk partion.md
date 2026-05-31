@@ -55,4 +55,5 @@ mount-point = /dev/zram0
 29. pacman -S networkmanager sddm
 30. systemctl enable NetworkManager
 31. systemctl enable sddm
-32. 
+32. pacman -S base-devel git
+33. 
