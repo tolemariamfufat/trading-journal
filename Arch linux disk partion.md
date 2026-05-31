@@ -1,4 +1,14 @@
 ### Phase 1: Disk Partitioning and Formatting
+iwctl
+device list
+station wlan0 scan
+station wlan0 get-networks
+station wlan0 connect [Your Network]
+exit
+png -c 3 archlinux.org
+
+setfont ter-124b
+timedatectl set-ntp true
 cfdisk 
 
 1. **Partitioning:** `cfdisk (Select **GPT** label).
