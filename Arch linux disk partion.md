@@ -56,4 +56,13 @@ mount-point = /dev/zram0
 30. systemctl enable NetworkManager
 31. systemctl enable sddm
 32. pacman -S base-devel git
-33. 
+33. su - <your_username>
+34. git clone https://aur.archlinux.org/yay.git
+35. cd yay
+	makepkg -si
+36. cd ..
+	rm -rf yay
+	37. To install a package: yay -S <package_name>
+	38. To update everything (official + AUR): yay
+	39. To search for a package: yay <search_term>
+	40. 
