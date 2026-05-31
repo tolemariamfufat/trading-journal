@@ -65,4 +65,4 @@ mount-point = /dev/zram0
 	37. To install a package: yay -S <package_name>
 	38. To update everything (official + AUR): yay
 	39. To search for a package: yay <search_term>
-	40. 
+	40. sudo pacman -S alacritty (inside yay)
