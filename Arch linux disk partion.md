@@ -29,4 +29,5 @@ mount -o subvol=@snapshots /dev/sda2 /mnt/.snapshots)
 9. cat /mnt/etc/fstab
 10. pacstrap -K /mnt base linux linux-firmware sudo vim
 11. arch-chroot /mnt
-12. 
+12. timedatectl list-timezones
+13. 
