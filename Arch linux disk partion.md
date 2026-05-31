@@ -1,91 +1,79 @@
-### 1. Disk Preparation and Formatting
+### Phase 1: Disk Partitioning and Formatting
 
-- **1.1 Partitioning**
+1. **Partitioning:** `cfdisk /dev/sda` (Select **GPT** label).
     
-    - 1.1.1 Run `cfdisk /dev/sda` and select the **GPT** label.
+    - `sda1`: 500MB (EFI System)
         
-    - 1.1.2 Create `sda1` (500MB) for EFI.
+    - `sda2`: Remainder (Linux Filesystem)
         
-    - 1.1.3 Create `sda2` (Remainder) for the main system.
-        
-- **1.2 Formatting**
+2. **Formatting:**
     
-    - 1.2.1 `mkfs.fat -F 32 /dev/sda1`
+    - `mkfs.fat -F 32 /dev/sda1`
         
-    - 1.2.2 `mkfs.btrfs -f /dev/sda2`
-        
+    - `mkfs.btrfs -f /dev/sda2`
 
-### 2. BTRFS Subvolume Configuration
+### Phase 2: BTRFS Subvolume Setup
 
-- **2.1 Initial Setup**
+1. **Initial Mount:** `mount /dev/sda2 /mnt`
     
-    - 2.1.1 `mount /dev/sda2 /mnt`
-        
-- **2.2 Creating Subvolumes**
+2. **Create Subvolumes:**
     
-    - 2.2.1 `btrfs subvolume create /mnt/@`
-        
-    - 2.2.2 `btrfs subvolume create /mnt/@home`
-        
-    - 2.2.3 `btrfs subvolume create /mnt/@snapshots`
-        
-    - 2.2.4 `btrfs subvolume create /mnt/@var_log`
-        
-- **2.3 Mounting with Advanced Options**
+    Bash
     
-    - 2.3.1 Unmount the temporary mount: `umount /mnt`
-        
-    - 2.3.2 Mount root: `mount -o subvol=@,noatime,compress=zstd /dev/sda2 /mnt`
-        
-    - 2.3.3 Create directories: `mkdir -p /mnt/{boot,home,.snapshots,var/log}`
-        
-    - 2.3.4 Mount subvolumes:
-        
-        - `mount -o subvol=@home,noatime,compress=zstd /dev/sda2 /mnt/home`
-            
-        - `mount -o subvol=@snapshots,noatime,compress=zstd /dev/sda2 /mnt/.snapshots`
-            
-        - `mount -o subvol=@var_log,noatime,compress=zstd /dev/sda2 /mnt/var/log`
-            
-    - 2.3.5 Mount boot: `mount /dev/sda1 /mnt/boot`
-        
+    ```
+    btrfs subvolume create /mnt/@
+    btrfs subvolume create /mnt/@home
+    btrfs subvolume create /mnt/@snapshots
+    btrfs subvolume create /mnt/@var_log
+    ```
+    
+3. **Unmount and Remount (with Advanced Options):**
+    
+    Bash
+    
+    ```
+    umount /mnt
+    mount -o subvol=@,noatime,compress=zstd /dev/sda2 /mnt
+    mkdir -p /mnt/{boot,home,.snapshots,var/log}
+    mount -o subvol=@home,noatime,compress=zstd /dev/sda2 /mnt/home
+    mount -o subvol=@snapshots,noatime,compress=zstd /dev/sda2 /mnt/.snapshots
+    mount -o subvol=@var_log,noatime,compress=zstd /dev/sda2 /mnt/var/log
+    mount /dev/sda1 /mnt/boot
+    ```
+### Phase 3: System Installation
 
-### 3. System Installation
+1. **Generate FSTAB:** `genfstab -U /mnt >> /mnt/etc/fstab`
+    
+2. **Base Install:** `pacstrap -K /mnt base linux linux-firmware sudo vim`
+    
+3. **Enter Chroot:** `arch-chroot /mnt`
+### Phase 4: System Configuration
 
-- **3.1 Base Environment**
+1. **Time & Locale:**
     
-    - 3.1.1 `genfstab -U /mnt >> /mnt/etc/fstab`
+    - `timedatectl set-timezone <Region/City>`
         
-    - 3.1.2 `pacstrap -K /mnt base linux linux-firmware sudo vim`
+    - `hwclock --systohc`
         
-    - 3.1.3 `arch-chroot /mnt`
+    - `vim /etc/locale.gen` (uncomment `en_US.UTF-8 UTF-8`)
         
-- **3.2 System Configuration**
+    - `echo "LANG=en_US.UTF-8" > /etc/locale.conf`
+        
+2. **Network & Security:**
     
-    - 3.2.1 Timezone: `timedatectl set-timezone <Region/City>`
+    - Set Hostname: `echo "arch" > /etc/hostname`
         
-    - 3.2.2 Sync Hardware Clock: `hwclock --systohc`
+    - Set Password: `passwd`
         
-    - 3.2.3 Locale: Uncomment `en_US.UTF-8 UTF-8` in `/etc/locale.gen`, then run `locale-gen`.
-        
-    - 3.2.4 Configs: `echo "LANG=en_US.UTF-8" > /etc/locale.conf`
-        
-    - 3.2.5 Identity: Set `echo "arch" > /etc/hostname`.
-        
+    - Create User: `useradd -m <username>` && `passwd <username>`
 
-### 4. System Optimization and Bootloader
+### Phase 5: Optimization & Bootloader
 
-- **4.1 User Management**
+1. **ZRAM Setup:**
     
-    - 4.1.1 Set root password: `passwd`
+    - `pacman -S zram-generator`
         
-    - 4.1.2 Create user: `useradd -m <username>` and `passwd <username>`
-        
-- **4.2 Memory Optimization (ZRAM)**
-    
-    - 4.2.1 `pacman -S zram-generator`
-        
-    - 4.2.2 Configure `/etc/systemd/zram-generator.conf`:
+    - Edit `/etc/systemd/zram-generator.conf`:
         
         Ini, TOML
         
@@ -96,59 +84,78 @@
         swap-priority = 100
         ```
         
-- **4.3 Bootloader**
+2. **GRUB Installation:**
     
-    - 4.3.1 `pacman -S grub efibootmgr`
+    - `pacman -S grub efibootmgr`
         
-    - 4.3.2 `mkdir -p /boot/efi && mount /dev/sda1 /boot/efi`
+    - `mkdir -p /boot/efi && mount /dev/sda1 /boot/efi`
         
-    - 4.3.3 `grub-install --target=x86_64-efi --efi-directory=/boot/efi --bootloader-id=GRUB`
+    - `grub-install --target=x86_64-efi --efi-directory=/boot/efi --bootloader-id=GRUB`
         
-    - 4.3.4 `grub-mkconfig -o /boot/grub/grub.cfg`
-        
+    - `grub-mkconfig -o /boot/grub/grub.cfg`
 
-### 5. Desktop and Package Management
 
-- **5.1 Environment Setup**
+### Phase 6: Finalizing Desktop & AUR
+
+1. **Networking & DM:** `pacman -S networkmanager sddm gnome`
     
-    - 5.1.1 `pacman -S networkmanager sddm gnome base-devel git`
-        
-    - 5.1.2 `systemctl enable NetworkManager`
-        
-    - 5.1.3 `systemctl enable sddm`
-        
-- **5.2 AUR Helper (Yay)**
+2. **Enable Services:**
     
-    - 5.2.1 Switch to user: `su - <username>`
+    - `systemctl enable NetworkManager`
         
-    - 5.2.2 Install: `git clone https://aur.archlinux.org/yay.git && cd yay && makepkg -si`
+    - `systemctl enable sddm`
         
-
-### 6. Finalization
-
-- **6.1 Cleanup**
+3. **AUR Helper (Yay):**
     
-    - 6.1.1 Exit chroot: `exit`
+    - As normal user:
         
-    - 6.1.2 Unmount: `umount -R /mnt`
+        Bash
         
-    - 6.1.3 Reboot: `reboot` (Remove USB media)
+        ```
+        git clone https://aur.archlinux.org/yay.git
+        cd yay && makepkg -si
+        ```
+        
+
+### Exit & Reboot
+
+Bash
+
+```
+exit
+umount -R /mnt
+reboot
+```
+
+### Quick Cheat Sheet for `yay`
+
+- **Install:** `yay -S <package_name>`
+    
+- **Update All:** `yay`
+    
+- **Search:** `yay <search_term>`
 
 
 
-7. cfdisk /dev/sda
-8. gpt
-9. New create 500Mb for sda1
-10. New create the rest for sda2
-11. formatting
+
+
+
+
+
+
+4. cfdisk /dev/sda
+5. gpt
+6. New create 500Mb for sda1
+7. New create the rest for sda2
+8. formatting
 	1. mkfs.fat -F 32 /dev/sda1
 	2. mkfs.btrfs -f /dev/sda2
-12. mounting
+9. mounting
 	1. mount /dev/sda2 /mnt
 	2. btrfs subvolume create /mnt/@home
 	3. btrfs subvolume create /mnt/@snapshots
 	4. btrfs subvolume create /mnt/@var_log
-13. umount /mnt
+10. umount /mnt
 	(regular: mount -o subvol=@ /dev/sda2 /mnt
 mkdir -p /mnt/home /mnt/var /mnt/.snapshots
 mount -o subvol=@home /dev/sda2 /mnt/home
