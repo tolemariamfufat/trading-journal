@@ -13,4 +13,7 @@
 7. umount /mnt
 8. mount -o subvol=@,noatime,compress=zstd /dev/sda2 /mnt
 9. mkdir -p /mnt/{boot,home,.snapshots,var/log} (or mkdir -p /mnt/boot /mnt/home /mnt/ .snapshots /mnt/var/log)
-10. 
+10. mount -o subvol=@home,noatime,compress=zstd /dev/sda2 /mnt/home
+11. mount -o subvol=@snapshots,noatime,compress=zstd /dev/sda2 /mnt/.snapshots
+12. mount -o subvol=@var/log,noatime,compress=zstd /dev/sda2 /mnt/var/log
+13. mount /dev/sda1 /mnt/boot
