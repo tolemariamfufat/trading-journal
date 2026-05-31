@@ -16,8 +16,8 @@ cfdisk
     - `sda1`: 500MB (EFI System)
         
     - `sda2`: Remainder (Linux Filesystem)
-        
-2. **Formatting:**
+   lsblk
+1. **Formatting:**
     
     - `mkfs.fat -F 32 /dev/sda1`
         
