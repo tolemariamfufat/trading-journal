@@ -78,6 +78,9 @@ cfdisk
         
     - Create User: `useradd -m <username>` && `passwd <username>`
 		usermod -aG wheel,audio,video,optical,storage,input to
+		visudo (to edit the file)
+		uncomment to allow members of group wheel to execute any command
+		%wheel ALL (ALL:ALL) ALL
 ### Phase 5: Optimization & Bootloader
 
 1. **ZRAM Setup:**
