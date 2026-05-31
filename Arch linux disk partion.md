@@ -8,4 +8,5 @@
 6. mounting
 	1. mount /dev/sda2 /mnt
 	2. btrfs subvolume create /mnt/@home
-	3. 
+	3. btrfs subvolume create /mnt/@snapshots
+	4. btrfs subvolume create /mnt/@var_log
