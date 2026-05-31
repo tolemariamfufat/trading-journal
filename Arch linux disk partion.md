@@ -32,3 +32,4 @@ mount -o subvol=@snapshots /dev/sda2 /mnt/.snapshots)
 12. timedatectl list-timezones 
 13. timedatectl set-timezone [PLACE]
 14. hwclock --systohc
+15. vim /etc/locale.gen (uncomment the lince #en_us.UTF-8 UTF-8)
