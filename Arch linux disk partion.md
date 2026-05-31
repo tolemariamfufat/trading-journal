@@ -123,6 +123,8 @@ cfdisk
         Bash
         
         ```
+        su - to
+        makedir -p 
         git clone https://aur.archlinux.org/yay.git
         cd yay && makepkg -si
         ```
