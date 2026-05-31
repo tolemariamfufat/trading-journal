@@ -121,7 +121,7 @@ cfdisk
     - As normal user:
         
         Bash
-        
+        pacman -S --needed base-devel git
         ```
         su - to
         mkdir -p ~/build cd ~/build
