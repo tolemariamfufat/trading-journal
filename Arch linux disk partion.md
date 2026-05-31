@@ -72,8 +72,8 @@ cfdisk
         
 2. **Network & Security:**
     
-    - Set Hostname: `echo "arch" > /etc/hostname`
-        
+    - Set Hostname: vim /etc/hostname (`echo "arch" > /etc/hostname`)
+        set host: vim /etc/host (no need to edit it should be there)
     - Set Password: `passwd`
         
     - Create User: `useradd -m <username>` && `passwd <username>`
