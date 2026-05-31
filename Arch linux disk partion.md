@@ -52,4 +52,7 @@ mount-point = /dev/zram0
 26. mount /dev/sda1 /boot/efi
 27. grub-install --target=x86_64-efi --efi-directory=/boot/efi --bootloader-id=GRUB (if installs with no error run the following command)
 28. grub-mkconfig -o /boot/grub/grub.cfg
-29. 
+29. pacman -S networkmanager sddm
+30. systemctl enable NetworkManager
+31. systemctl enable sddm
+32. 
