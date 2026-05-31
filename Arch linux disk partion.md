@@ -39,3 +39,5 @@ mount -o subvol=@snapshots /dev/sda2 /mnt/.snapshots)
 19. passwd
 20. useradd -m to
 21. passwd to
+22. pacman -S zram-generator
+23. 
