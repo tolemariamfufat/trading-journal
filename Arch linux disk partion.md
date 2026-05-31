@@ -48,4 +48,4 @@ swap-priority = 100
 mount-point = /dev/zram0
 
 24. pacman -S grub efibootmgr
-25. 
+25. mkdir -p /boot/efi
