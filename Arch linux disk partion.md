@@ -127,7 +127,9 @@ cfdisk
         mkdir -p ~/build cd ~/build
         git clone https://aur.archlinux.org/yay-bin.git cd yay-yay makepkg -s
         ```
-        
+        exit
+        cd /home/to/build/yay-bin
+        pacman -U yay-bin-*.pkg.tar.zst
 
 ### Exit & Reboot
 
