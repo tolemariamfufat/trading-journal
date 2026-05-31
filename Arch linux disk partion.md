@@ -41,4 +41,9 @@ mount -o subvol=@snapshots /dev/sda2 /mnt/.snapshots)
 21. passwd to
 22. pacman -S zram-generator
 23. vim /etc/systemd/zram-generator.conf
-24. 
+[zram0]
+zram-size = ram / 2
+compression-algorithm = zstd
+swap-priority = 100
+mount-point = /dev/zram0
+
