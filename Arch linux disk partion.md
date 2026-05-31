@@ -77,7 +77,7 @@ cfdisk
     - Set Password: `passwd`
         
     - Create User: `useradd -m <username>` && `passwd <username>`
-
+		usermod -aG wheel,audio,video,optical,storage,input to
 ### Phase 5: Optimization & Bootloader
 
 1. **ZRAM Setup:**
