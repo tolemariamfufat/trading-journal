@@ -12,4 +12,5 @@
 	4. btrfs subvolume create /mnt/@var_log
 7. umount /mnt
 8. mount -o subvol=@,noatime,compress=zstd /dev/sda2 /mnt
-9. 
+9. mkdir -p /mnt/{boot,home,.snapshots,var/log} (or mkdir -p /mnt/boot /mnt/home /mnt/ .snapshots /mnt/var/log)
+10. 
