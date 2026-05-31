@@ -11,9 +11,12 @@
 	3. btrfs subvolume create /mnt/@snapshots
 	4. btrfs subvolume create /mnt/@var_log
 7. umount /mnt
-8. mount -o subvol=@,noatime,compress=zstd /dev/sda2 /mnt
+8. mount -o subvol=@(,noatime,compress=zstd) /dev/sda2 /mnt
 9. mkdir -p /mnt/{boot,home,.snapshots,var/log} (or mkdir -p /mnt/boot /mnt/home /mnt/ .snapshots /mnt/var/log)
 10. mount -o subvol=@home,noatime,compress=zstd /dev/sda2 /mnt/home
 11. mount -o subvol=@snapshots,noatime,compress=zstd /dev/sda2 /mnt/.snapshots
 12. mount -o subvol=@var/log,noatime,compress=zstd /dev/sda2 /mnt/var/log
 13. mount /dev/sda1 /mnt/boot
+14. lsblk
+15. genfstab -U /mnt >> /mnt/etc/fstab
+16. cat /mnt/etc/fstab
