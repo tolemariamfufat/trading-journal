@@ -67,3 +67,6 @@ mount-point = /dev/zram0
 	38. To update everything (official + AUR): yay
 	39. To search for a package: yay <search_term>
 	40. sudo pacman -S alacritty (inside yay)
+**Exit the `chroot`:**
+umount -R /mnt
+reboot
