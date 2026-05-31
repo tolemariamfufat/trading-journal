@@ -7,4 +7,5 @@
 	2. mkfs.btrfs -f /dev/sda2
 6. mounting
 	1. mount /dev/sda2 /mnt
-	2. 
+	2. btrfs subvolume create /mnt/@home
+	3. 
