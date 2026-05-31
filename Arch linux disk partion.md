@@ -1,16 +1,161 @@
-1. cfdisk /dev/sda
-2. gpt
-3. New create 500Mb for sda1
-4. New create the rest for sda2
-5. formatting
+### Phase 1: Disk Partitioning and Formatting
+
+1. **Partitioning:** `cfdisk /dev/sda` (Select **GPT** label).
+    
+    - `sda1`: 500MB (EFI System)
+        
+    - `sda2`: Remainder (Linux Filesystem)
+        
+2. **Formatting:**
+    
+    - `mkfs.fat -F 32 /dev/sda1`
+        
+    - `mkfs.btrfs -f /dev/sda2`
+        
+
+### Phase 2: BTRFS Subvolume Setup
+
+1. **Initial Mount:** `mount /dev/sda2 /mnt`
+    
+2. **Create Subvolumes:**
+    
+    Bash
+    
+    ```
+    btrfs subvolume create /mnt/@
+    btrfs subvolume create /mnt/@home
+    btrfs subvolume create /mnt/@snapshots
+    btrfs subvolume create /mnt/@var_log
+    ```
+    
+3. **Unmount and Remount (with Advanced Options):**
+    
+    Bash
+    
+    ```
+    umount /mnt
+    mount -o subvol=@,noatime,compress=zstd /dev/sda2 /mnt
+    mkdir -p /mnt/{boot,home,.snapshots,var/log}
+    mount -o subvol=@home,noatime,compress=zstd /dev/sda2 /mnt/home
+    mount -o subvol=@snapshots,noatime,compress=zstd /dev/sda2 /mnt/.snapshots
+    mount -o subvol=@var_log,noatime,compress=zstd /dev/sda2 /mnt/var/log
+    mount /dev/sda1 /mnt/boot
+    ```
+    
+
+### Phase 3: System Installation
+
+1. **Generate FSTAB:** `genfstab -U /mnt >> /mnt/etc/fstab`
+    
+2. **Base Install:** `pacstrap -K /mnt base linux linux-firmware sudo vim`
+    
+3. **Enter Chroot:** `arch-chroot /mnt`
+    
+
+### Phase 4: System Configuration
+
+1. **Time & Locale:**
+    
+    - `timedatectl set-timezone <Region/City>`
+        
+    - `hwclock --systohc`
+        
+    - `vim /etc/locale.gen` (uncomment `en_US.UTF-8 UTF-8`)
+        
+    - `echo "LANG=en_US.UTF-8" > /etc/locale.conf`
+        
+2. **Network & Security:**
+    
+    - Set Hostname: `echo "arch" > /etc/hostname`
+        
+    - Set Password: `passwd`
+        
+    - Create User: `useradd -m <username>` && `passwd <username>`
+        
+
+### Phase 5: Optimization & Bootloader
+
+1. **ZRAM Setup:**
+    
+    - `pacman -S zram-generator`
+        
+    - Edit `/etc/systemd/zram-generator.conf`:
+        
+        Ini, TOML
+        
+        ```
+        [zram0]
+        zram-size = ram / 2
+        compression-algorithm = zstd
+        swap-priority = 100
+        ```
+        
+2. **GRUB Installation:**
+    
+    - `pacman -S grub efibootmgr`
+        
+    - `mkdir -p /boot/efi && mount /dev/sda1 /boot/efi`
+        
+    - `grub-install --target=x86_64-efi --efi-directory=/boot/efi --bootloader-id=GRUB`
+        
+    - `grub-mkconfig -o /boot/grub/grub.cfg`
+        
+
+### Phase 6: Finalizing Desktop & AUR
+
+1. **Networking & DM:** `pacman -S networkmanager sddm gnome`
+    
+2. **Enable Services:**
+    
+    - `systemctl enable NetworkManager`
+        
+    - `systemctl enable sddm`
+        
+3. **AUR Helper (Yay):**
+    
+    - As normal user:
+        
+        Bash
+        
+        ```
+        git clone https://aur.archlinux.org/yay.git
+        cd yay && makepkg -si
+        ```
+        
+
+### Exit & Reboot
+
+Bash
+
+```
+exit
+umount -R /mnt
+reboot
+```
+
+### Quick Cheat Sheet for `yay`
+
+- **Install:** `yay -S <package_name>`
+    
+- **Update All:** `yay`
+    
+- **Search:** `yay <search_term>`
+
+
+
+7. cfdisk /dev/sda
+8. gpt
+9. New create 500Mb for sda1
+10. New create the rest for sda2
+11. formatting
 	1. mkfs.fat -F 32 /dev/sda1
 	2. mkfs.btrfs -f /dev/sda2
-6. mounting
+12. mounting
 	1. mount /dev/sda2 /mnt
 	2. btrfs subvolume create /mnt/@home
 	3. btrfs subvolume create /mnt/@snapshots
 	4. btrfs subvolume create /mnt/@var_log
-7. umount /mnt
+13. umount /mnt
 	(regular: mount -o subvol=@ /dev/sda2 /mnt
 mkdir -p /mnt/home /mnt/var /mnt/.snapshots
 mount -o subvol=@home /dev/sda2 /mnt/home
