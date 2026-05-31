@@ -37,4 +37,5 @@ mount -o subvol=@snapshots /dev/sda2 /mnt/.snapshots)
 17. vim /etc/hostname (write arch)
 18. vim /etc/hosts (check if it is correct)
 19. passwd
-20. 
+20. useradd -m to
+21. passwd to
