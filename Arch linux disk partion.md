@@ -1,4 +1,4 @@
-### Phase 1: Disk Partitioning and Formatting
+=### Phase 1: Disk Partitioning and Formatting
 iwctl
 device list
 station wlan0 scan
