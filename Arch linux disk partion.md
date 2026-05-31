@@ -50,3 +50,4 @@ mount-point = /dev/zram0
 24. pacman -S grub efibootmgr
 25. mkdir -p /boot/efi
 26. mount /dev/sda1 /boot/efi
+27. grub-install --target=x86_64-efi --efi-directory=/boot/efi --bootloader-id=GRUB
