@@ -268,7 +268,8 @@ Logical volume
 pvcreate /dev/mapper/lvm
 By running pvcreate, he was adding yet another layer of flexibility. When you see pvcreate, vgcreate, and lvcreate in an Arch installation, it means the user wants to be able to resize their partitions easily later on without having to repartition the physical disk.
 
-Performance: It is highly efficient for general desktop use, which fits the Arch philosophy of a clean, performant system.
+vgcreate volgroup0 /dev/mapper/lvm
+
 
 
 
