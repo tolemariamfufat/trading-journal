@@ -373,6 +373,17 @@ Here is how that command sequence maps your directory tree:
 
 /mnt/home: This is your data partition (/dev/volgroup0/lv_home). By mounting it here, you ensure that all user profiles and personal files are automatically directed to that large 800GB volume.
 
+pacstrap -i /mnt base
+What is pacstrap?
+pacstrap is a special script unique to Arch Linux. It is essentially an installer that knows how to reach out to the Arch servers, download the core packages, and "strap" (install) them into the target directory (/mnt) you just set up.
+
+-i (Interactive): This flag tells pacstrap to ask you for confirmation before installing packages. It’s a good safety check to ensure you know exactly what is being added.
+
+/mnt: This is your target destination—the root of the new system you just mounted.
+
+base: This is a group of essential packages. It contains the bare minimum software required to have a functioning Linux system, including the kernel, the shell (bash), and basic system tools.
+
+
 
 
 
