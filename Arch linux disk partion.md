@@ -395,8 +395,27 @@ Prompt: It asks, "Do you want to proceed with this installation?" (This is where
 
 Download and Install: It downloads everything and starts writing files to your drive.
 
+genfstab -U -p /mnt >> /mnt/etc/fstab
 
+This is the "Memory" step. You have built the house, and now you are writing down the architectural blueprints so the system remembers where everything is located after you turn it off and turn it back on.
 
+What is genfstab?
+genfstab stands for Generate File System Table.
+
+-U: This is crucial. It tells the system to use UUIDs (Universally Unique Identifiers) rather than device names (like /dev/nvme0n1p1). Device names can change if you add or remove drives, but a UUID is a unique "fingerprint" for that specific partition. This ensures your computer always finds the right drive, no matter what.
+
+-p: This ensures that mount points (like your /boot and /home partitions) are included in the generated file.
+
+/mnt: This tells the tool to look at the currently mounted system.
+
+>> /mnt/etc/fstab: This is the redirection operator. It takes the output of the command and appends it to the fstab file inside your new system.
+
+Why this file (/etc/fstab) is the most important file for your OS
+Without this file, the next time you boot your computer, the kernel wouldn't know which partition is the root (/), which is the home directory, or where the boot files are. It would try to boot into a blank void, and the system would fail.
+
+By running this command, you are telling the kernel:
+
+"Whenever you start up, look at this file to find out which drive is home, which is root, and where to mount the EFI partition."
 
 
 
