@@ -249,7 +249,11 @@ Privacy: It protects your documents, browser history, and saved passwords even i
 
 The "Need to Know" for your future install
 If you choose to do this on your future manual installations, remember that encryption adds complexity. You will have to configure a "keyfile" or specific kernel parameters to tell the system where the encrypted partition is during boot. If you forget your passphrase, your data is gone forever—there is no "forgot password" button for LUKS.
+Open the encryption: 
+A Note on the Command
+You noticed he typed **cryptsetup open --type luks /dev/nvme0n1p3**.
 
+The --type luks part is a good habit—it explicitly tells the system which encryption standard to use.
 The Standard Formatting Commands
 Assuming your third partition is /dev/nvme0n1p3, here is how you would format it using the most common and robust filesystem, ext4:
 
