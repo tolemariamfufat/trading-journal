@@ -429,3 +429,4 @@ pacman -S linux linux-headers linux-lts linux-lts-headers
 nano /etc/mkinitcpio.conf
 
 
+
