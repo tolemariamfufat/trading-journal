@@ -428,6 +428,9 @@ pacman -S base-devel dosfstools grub efibootmgr gnome gnome-tweaks lvm2 mtools n
 pacman -S linux linux-headers linux-lts linux-lts-headers
 nano /etc/mkinitcpio.conf
 HOOKS=(base systemd autodetect microcode modconf kms keyboard sd-vconsole block [sd-encrypt lvm2] add this
+mkinitcpio -p linux (do not forget this after editing the file)
+mkinitcpio -p linux-lts (do not forget this after editing the file)
+
 Why you have to edit mkinitcpio.conf
 By default, Arch Linux assumes your drive is simple and unencrypted. By adding those hooks, you are changing the "boot sequence" of your computer.
 
