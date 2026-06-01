@@ -360,7 +360,18 @@ mkdir /mnt/boot
 mount /dev/nvme0n1p1 /mnt/boot
 mkdir /mnt/home
 mount /dev/volgroup0/lv_home /mnt/home
+This is the final "wiring" of your system. Think of this step as connecting all your logical volumes and partitions into one single, unified tree structure that the Linux kernel can understand as a single OS.
 
+Without mounting, your filesystems are just "islands" floating in the void. By mounting them, you are placing them into the /mnt directory, which acts as the "staging ground" for your new Arch installation.
+
+The Layout You Just Created
+Here is how that command sequence maps your directory tree:
+
+/mnt: This is your root (/). When the installation is finished, everything you install will live here.
+
+/mnt/boot: This is your dedicated boot partition (/dev/nvme0n1p1). By mounting it here, you ensure that the system knows exactly where to store the Kernel and bootloader files.
+
+/mnt/home: This is your data partition (/dev/volgroup0/lv_home). By mounting it here, you ensure that all user profiles and personal files are automatically directed to that large 800GB volume.
 
 
 
