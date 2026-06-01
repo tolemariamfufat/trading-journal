@@ -152,4 +152,8 @@ reboot
     
 - **Search:** `yay <search_term>`
 
+Command (m for help): n
+Partition number (1-128, default 1): [Enter]
+First sector (2048-..., default 2048): [Enter]
+Last sector, +/-sectors or +/-size{K,M,G,T,P}: +1G   <-- You type the size
 
