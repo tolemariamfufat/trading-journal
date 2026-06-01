@@ -155,6 +155,28 @@ reboot
 The fdisk Workflow Decoder
 lsblk
 fdisk /dev/nvme0n1
+Here is the "map" of what that teacher was creating and why each piece is vital:
+
+1. The EFI Partition (usually 512MB to 1GB)
+Purpose: This is the bridge between your motherboard's firmware (UEFI) and the Linux kernel. It is formatted as FAT32.
+
+Why it's essential: Without this, your computer wouldn't know how to "find" the bootloader (like GRUB or systemd-boot) that starts your operating system.
+
+Mount point: /boot/efi or /efi.
+
+2. The /boot Partition (usually 500MB to 2GB)
+Purpose: This holds the actual Linux kernel files and the initramfs (the initial image loaded into memory to get the system running).
+
+Why it's essential: By putting /boot on its own partition, you protect your boot files from being affected by issues that might occur in your main system partition. It also makes it easier to use advanced features like full-disk encryption (LUKS) later on.
+
+Mount point: /boot.
+
+3. The Root (/) Partition (The rest of the space)
+Purpose: This is where the entire operating system, your applications, and all your files live.
+
+Why it's essential: This is your "home base." You format this as a Linux-native file system (usually ext4, or sometimes btrfs if you want features like snapshots).
+
+Mount point: / (the root directory).
 The typical workflow after that command:
 g (Create GPT partition table): This is the modern standard (GUID Partition Table). It replaces the old, limited MBR style. It is required for modern UEFI booting.
 
