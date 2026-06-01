@@ -16,3 +16,4 @@ sudo truncate -s 0 mirrorlist
 sudo nano mirrorlist
 paste the generated mirrorlist
 sudo pacman -Syy
+
