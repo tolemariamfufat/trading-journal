@@ -270,6 +270,28 @@ By running pvcreate, he was adding yet another layer of flexibility. When you se
 
 vgcreate volgroup0 /dev/mapper/lvm
 
+lvcreate -L 30GB volgroup0 -n lv_root
+What this command means:
+lvcreate: The command to carve a logical slice out of the Volume Group.
+
+-L 30GB: He is explicitly setting the size to 30 Gigabytes. This is the "partition" that will hold your operating system.
+
+volgroup0: The source "pool" where this space is coming from.
+
+-n lv_root: The name he is giving this logical volume (short for "Logical Volume Root").
+
+Why he chose 30GB:
+This is a standard, safe size for a root partition. It is large enough to hold:
+
+The Base System: The core Arch Linux OS.
+
+Packages: All the software you install using pacman.
+
+Logs and Libraries: The data the OS needs to run efficiently.
+
+Note: By keeping the root partition at a fixed size (30GB) while putting data like your personal files, movies, and photos in a different logical volume (like lv_home), he ensures that if your system fills up with logs, it won't prevent you from saving your personal documents.
+
+
 
 
 
