@@ -342,6 +342,10 @@ Mounting: mount the volumes to /mnt.
 
 Installation: pacstrap /mnt base linux linux-firmware.
 
+Formating: 
+mkfs.ext4 /dev/volgroup0/lv_root
+mkfs.ext4 /dev/volgroup0/lv_home
+
 
 
 
