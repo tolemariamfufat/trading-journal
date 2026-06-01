@@ -209,3 +209,18 @@ mkfs: Short for "make filesystem."
 -F 32: Specifies FAT32. This is the universal standard for UEFI firmware. Your motherboard’s BIOS/UEFI is very simple—it doesn't understand advanced Linux filesystems like ext4 or btrfs, but it does understand FAT32.
 
 /dev/nvme0n1p1: The target partition you created earlier.
+
+Why we use different formats
+You will likely see the teacher use different commands for the other partitions. Here is why:
+
+For the EFI Partition (/dev/nvme0n1p1):
+
+Command: mkfs.fat -F 32
+
+Reason: Compatibility. The UEFI firmware requires this to find your boot files.
+
+For the Boot/Root Partitions (/dev/nvme0n1p2, p3):
+
+Command: mkfs.ext4 /dev/nvme0n1p2 (or mkfs.btrfs)
+
+Reason: These are "Linux-native" filesystems. They support features that FAT32 does not, such as file permissions (who owns a file), symbolic links, and journaling (which prevents data corruption if the power cuts out).
