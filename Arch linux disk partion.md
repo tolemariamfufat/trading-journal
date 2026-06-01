@@ -427,6 +427,6 @@ passwd to
 pacman -S base-devel dosfstools grub efibootmgr gnome gnome-tweaks lvm2 mtools nano networkmanager os-prober sudo
 pacman -S linux linux-headers linux-lts linux-lts-headers
 nano /etc/mkinitcpio.conf
-
+HOOKS=(base systemd autodetect microcode modconf kms keyboard sd-vconsole block [sd-encrypt lvm2] add this
 
 
