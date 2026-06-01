@@ -465,3 +465,5 @@ This command packages your new configuration into a tiny file that the bootloade
 nano /etc/locale.gen
 locale.gen
 echo "re.luks.name=$(blkid -s UUID -o value /dev/nvme0n1p3)=lvm"
+(copy the genrated number and put in the follwong file)
+nano /etc/default/grup
