@@ -428,5 +428,35 @@ pacman -S base-devel dosfstools grub efibootmgr gnome gnome-tweaks lvm2 mtools n
 pacman -S linux linux-headers linux-lts linux-lts-headers
 nano /etc/mkinitcpio.conf
 HOOKS=(base systemd autodetect microcode modconf kms keyboard sd-vconsole block [sd-encrypt lvm2] add this
+Why you have to edit mkinitcpio.conf
+By default, Arch Linux assumes your drive is simple and unencrypted. By adding those hooks, you are changing the "boot sequence" of your computer.
+
+sd-encrypt: This is a systemd-based hook that tells the bootloader, "Hey, this partition is encrypted! Stop and ask the user for a password before you try to mount the drive."
+
+lvm2: This tells the system, "After you unlock the drive, look for LVM volume groups inside it and activate them so we can see the root partition."
+
+The Order Matters
+In mkinitcpio.conf, the order of hooks is strict. The system executes them from left to right.
+
+keyboard: Needed so the system can accept your password input.
+
+sd-encrypt: Unlocks the encrypted partition.
+
+lvm2: Activates the volumes inside that unlocked partition.
+
+If you put lvm2 before sd-encrypt, the computer would try to look for LVM volumes before it has even decrypted the disk. It would fail, and you would be dropped into a "rescue shell."
+
+If you decide to skip encryption (Your original plan):
+Since you mentioned wanting to simplify things, it is important to know that you do not need these hooks if you do not use encryption or LVM.
+
+Without them, your HOOKS line would look much cleaner:
+HOOKS=(base udev autodetect modconf kms keyboard keymap consolefont block filesystems fsck)
+
+A Critical "Don't Forget"
+Every time you edit /etc/mkinitcpio.conf, you must regenerate the image, or the changes will not take effect. Even if you edit the file perfectly, the computer won't know the new instructions until you run:
+
+Bash
+mkinitcpio -P
+This command packages your new configuration into a tiny file that the bootloader (like GRUB or systemd-boot) uses during the very first second of startup.
 
 
