@@ -7,4 +7,9 @@ sudo pacman -Syu (upgrade packages which are upgradable)
 
 update mirror list
 https://www.archlinux.org/mirrorlist
-then choose your country and select only https and ipv4 mirror status
+then choose your country and select only https and ipv4 mirror status then genrate the list then copy paste on cat /etc/mirrorlist
+cd /etc/pacman.d
+ls
+cp mirrorlist mirrorlist.bak
+sudo truncate -s 0 mirrorlist
+sudo nano mirrorlist
