@@ -397,6 +397,8 @@ Download and Install: It downloads everything and starts writing files to your d
 
 genfstab -U -p /mnt >> /mnt/etc/fstab
 
+cat /mnt/etc/fstab
+
 This is the "Memory" step. You have built the house, and now you are writing down the architectural blueprints so the system remembers where everything is located after you turn it off and turn it back on.
 
 What is genfstab?
@@ -416,7 +418,6 @@ Without this file, the next time you boot your computer, the kernel wouldn't kno
 By running this command, you are telling the kernel:
 
 "Whenever you start up, look at this file to find out which drive is home, which is root, and where to mount the EFI partition."
-
 
 
 
