@@ -1,19 +1,30 @@
-Pacman comands
-cat /etc/pacman.d/mirrorlist
-sudo pacman -R [package] (remove)
-sudo pacman -S [package]
-pacman -Qdt (find orphan packages)
-sudo pacman -Syy (sink pakage manager and locale packages)
-sudo pacman -Syu (upgrade packages which are upgradable)
+Pacman Commands
+View mirror configuration: cat /etc/pacman.d/mirrorlist
 
-update mirror list
-https://www.archlinux.org/mirrorlist
-then choose your country and select only https and ipv4 mirror status then genrate the list then copy paste on cat /etc/mirrorlist
-cd /etc/pacman.d
-ls
-cp mirrorlist mirrorlist.bak
-sudo truncate -s 0 mirrorlist
-sudo nano mirrorlist
-paste the generated mirrorlist
-sudo pacman -Syy
+Remove package: sudo pacman -R [package]
+
+Install package: sudo pacman -S [package]
+
+Find orphan packages: pacman -Qdt
+
+Synchronize package database: sudo pacman -Syy
+
+Synchronize and upgrade system: sudo pacman -Syu
+
+Updating the Mirrorlist
+Generate your list from the official Arch Linux mirrorlist generator (https://archlinux.org/mirrorlist/) by selecting your country and enabling https and ipv4.
+
+Navigate to the directory: cd /etc/pacman.d
+
+List the files to confirm: ls
+
+Create a backup: sudo cp mirrorlist mirrorlist.bak
+
+Clear the file: sudo truncate -s 0 mirrorlist
+
+Edit the file: sudo nano mirrorlist
+
+Paste your generated list into the editor and save it.
+
+Refresh the database: sudo pacman -Syy
 
