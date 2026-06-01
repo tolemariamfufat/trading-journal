@@ -467,4 +467,4 @@ locale.gen
 echo "re.luks.name=$(blkid -s UUID -o value /dev/nvme0n1p3)=lvm"
 (copy the genrated number and put in the follwong file)
 nano /etc/default/grup
-GRUB_CMDLINE_LINUX="" (paste it here)
+GRUB_CMDLINE_LINUX="" (paste it here)and add at the end of the pasted line [root=/dev/volgroup0/lv_root]
