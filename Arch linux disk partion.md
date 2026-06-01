@@ -421,4 +421,4 @@ By running this command, you are telling the kernel:
 
 arch_chroot /mnt
 passwd
-
+useradd -m -g users -G wheel to
