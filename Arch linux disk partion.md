@@ -291,6 +291,18 @@ Logs and Libraries: The data the OS needs to run efficiently.
 
 Note: By keeping the root partition at a fixed size (30GB) while putting data like your personal files, movies, and photos in a different logical volume (like lv_home), he ensures that if your system fills up with logs, it won't prevent you from saving your personal documents.
 
+lvcreate -L 800GB volgroup0 -n lv_home
+
+By creating an lv_home volume with 800GB, he is physically separating your data from your system files. This is a classic "pro" setup.
+
+The Strategy Behind this Partitioning
+System Integrity: Because lv_root (30GB) and lv_home (800GB) are separate volumes, you could completely wipe and reinstall the operating system on lv_root without ever touching your personal files in lv_home.
+
+Safety: If you accidentally download a file that is too large or fill up your home directory with media, the system will not crash. The operating system on the root partition will continue to function perfectly because it has its own dedicated space.
+
+
+
+
 
 
 
