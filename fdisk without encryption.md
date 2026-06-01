@@ -97,4 +97,10 @@ git clone https://aur.archlinux.org/yay-bin.git
 cd yay-bin
 makepkg -si
 
-A small note: I added lvm2 to your HOOKS line in /etc/mkinitcpio.conf. Because your root filesystem is now on an LVM volume, the system must load the LVM module during the boot process to "see" your files. Without that, the system would panic!
+Before you run the final genfstab or grub-mkconfig commands, take a moment to look at your work.
+
+Verify your mount points: Run lsblk. This command will display your entire storage tree. Look at your EFI, Boot, and LVM volumes. If they aren't mounted exactly where you intended them to be, fstab will be wrong, and your system won't boot.
+
+Verify your LVM status: Run vgs and lvs. This confirms that your Volume Group is active and your logical volumes are correctly sized.
+
+Verify your internet connectivity: Before you trigger a massive pacstrap or pacman -S install, run ping -c 3 archlinux.org. It is better to know your network is down before you start a 10-minute download than halfway through.
