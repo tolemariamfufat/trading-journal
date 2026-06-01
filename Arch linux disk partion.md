@@ -152,6 +152,25 @@ reboot
     
 - **Search:** `yay <search_term>`
 
+The fdisk Workflow Decoder
+lsblk
+fdisk /dev/nvme0n1
+The typical workflow after that command:
+g (Create GPT partition table): This is the modern standard (GUID Partition Table). It replaces the old, limited MBR style. It is required for modern UEFI booting.
+
+n (New partition): You use this to define each segment. It asks for the partition number, the starting sector, and the size (e.g., +512M for EFI).
+
+p (Print): This is your most important safety tool. You use it before you write anything to check your work, and after you create each partition to see the resulting layout (/dev/nvme0n1p1, p2, p3, etc.).
+
+t (Type): This tells the system what the partition is for. For the EFI partition, you typically set the type to "EFI System" (Type 1). Without this, the motherboard won't recognize it as a bootable area.
+
+Why this order is perfect:
+Safety First: By running p frequently, you ensure you aren't overlapping partitions or making a size error.
+
+Logical Flow: You create the table (g), build your partitions (n), assign their roles (t), and finally make it permanent (w).
+
+No Mistakes: Because w is the very last step, if you get to p and see a mistake, you can simply quit with q and start over without damaging a single byte of data.
+w (Write): The "Point of No Return." This commits your changes to the physical disk. Nothing actually happens to your drive until you press w.
 Command (m for help): n
 Partition number (1-128, default 1): [Enter]
 First sector (2048-..., default 2048): [Enter]
