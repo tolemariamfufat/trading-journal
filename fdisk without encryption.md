@@ -92,5 +92,9 @@ systemctl enable NetworkManager
 exit
 umount -R /mnt
 reboot
+sudo pacman -S --needed git base-devel
+git clone https://aur.archlinux.org/yay-bin.git
+cd yay-bin
+makepkg -si
 
 A small note: I added lvm2 to your HOOKS line in /etc/mkinitcpio.conf. Because your root filesystem is now on an LVM volume, the system must load the LVM module during the boot process to "see" your files. Without that, the system would panic!
