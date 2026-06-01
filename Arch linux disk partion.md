@@ -462,4 +462,5 @@ Bash
 mkinitcpio -P
 This command packages your new configuration into a tiny file that the bootloader (like GRUB or systemd-boot) uses during the very first second of startup.
 
-
+nano /etc/locale.gen
+locale.gen
