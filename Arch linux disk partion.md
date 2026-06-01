@@ -198,3 +198,4 @@ Partition number (1-128, default 1): [Enter]
 First sector (2048-..., default 2048): [Enter]
 Last sector, +/-sectors or +/-size{K,M,G,T,P}: +1G   <-- You type the size
 
+Partiion 1=+1G; partion 2 = +1G and particion 3 default the rest for root and then w (write, the point of no return bcs the content is erased)
