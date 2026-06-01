@@ -470,3 +470,6 @@ nano /etc/default/grup
 GRUB_CMDLINE_LINUX="" (paste it here)and add at the end of the pasted line [root=/dev/volgroup0/lv_root]
 If you skip encryption:
 You can completely skip this step!
+mkdir /boot/EFI
+mount /dev/nvme0n1p1 /boot/EFI
+grub-install --target=x86_64-efi --bootloader-id=grub_uefi --recheck
