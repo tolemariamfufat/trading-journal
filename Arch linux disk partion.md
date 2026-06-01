@@ -426,5 +426,6 @@ cat /etc/passwd
 passwd to
 pacman -S base-devel dosfstools grub efibootmgr gnome gnome-tweaks lvm2 mtools nano networkmanager os-prober sudo
 pacman -S linux linux-headers linux-lts linux-lts-headers
+nano /etc/mkinitcpio.conf
 
 
