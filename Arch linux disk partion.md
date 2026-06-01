@@ -419,6 +419,5 @@ By running this command, you are telling the kernel:
 
 "Whenever you start up, look at this file to find out which drive is home, which is root, and where to mount the EFI partition."
 
-
-
+arch_chroot /mnt
 
