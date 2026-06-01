@@ -345,6 +345,14 @@ Installation: pacstrap /mnt base linux linux-firmware.
 Formating: 
 mkfs.ext4 /dev/volgroup0/lv_root
 mkfs.ext4 /dev/volgroup0/lv_home
+What is happening here?
+By running mkfs.ext4 on those specific paths, you are creating the filesystem architecture on your newly created logical volumes.
+
+mkfs.ext4: This creates an "ext4" journaled filesystem, which is the industry standard for Linux performance and reliability.
+
+/dev/volgroup0/lv_root: This is the "path" to your logical volume. You are effectively formatting your 30GB "root" slice.
+
+/dev/volgroup0/lv_home: You are formatting your 800GB "home" slice.
 
 
 
