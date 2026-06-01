@@ -354,7 +354,12 @@ mkfs.ext4: This creates an "ext4" journaled filesystem, which is the industry st
 
 /dev/volgroup0/lv_home: You are formatting your 800GB "home" slice.
 
-
+Mounting: 
+mount /dev/volgroup0/lv_root /mnt
+mkdir /mnt/boot
+mount /dev/nvme0n1p1 /mnt/boot
+mkdir /mnt/home
+mount /dev/volgroup0/lv_home /mnt/home
 
 
 
