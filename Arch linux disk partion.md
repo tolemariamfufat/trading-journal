@@ -475,3 +475,18 @@ mount /dev/nvme0n1p1 /boot/EFI
 grub-install --target=x86_64-efi --bootloader-id=grub_uefi --recheck
 cp /usr/share/locale/en\@quot/LC_MESSAGES/grub.mo /boot/grub/locale/en.mo
 grub-mkconfig -o /boot/grub.cfg
+The cp (Copy) Command
+The Command: cp /usr/share/locale/en\@quot/LC_MESSAGES/grub.mo /boot/grub/locale/en.mo
+
+Why he did it: This is a very specific, slightly "quirky" step often found in the Arch Wiki. GRUB (the bootloader) needs certain locale files to display its menu correctly. This command manually copies the language file into the spot where GRUB expects to find it. Without this, your GRUB menu might look broken or simply fail to load the translation correctly.
+
+2. The grub-mkconfig Command
+The Command: grub-mkconfig -o /boot/grub.cfg
+
+Why it's the "Master Key": This is the most important command here.
+
+mkconfig stands for Make Configuration.
+
+It scans your entire system, finds your kernel (/boot/vmlinuz-linux), finds your initramfs (the one you built earlier), and builds the text file /boot/grub.cfg.
+
+This file is what the computer reads at boot time to know what options to show you on the menu.
