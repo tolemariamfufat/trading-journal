@@ -424,3 +424,4 @@ passwd
 useradd -m -g users -G wheel to
 cat /etc/passwd
 passwd to
+pacman -S base-devel dosfstools grub efibootmgr gnome gnome-tweaks lvm2 mtools nano networkmanager os-prober sudo
