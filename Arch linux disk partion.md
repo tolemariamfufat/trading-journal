@@ -477,6 +477,11 @@ cp /usr/share/locale/en\@quot/LC_MESSAGES/grub.mo /boot/grub/locale/en.mo
 grub-mkconfig -o /boot/grub.cfg
 The cp (Copy) Command
 The Command: cp /usr/share/locale/en\@quot/LC_MESSAGES/grub.mo /boot/grub/locale/en.mo
+systemctl enable gdm
+systemctl enable NetworkManager
+exit
+umount -a
+reboot
 
 Why he did it: This is a very specific, slightly "quirky" step often found in the Arch Wiki. GRUB (the bootloader) needs certain locale files to display its menu correctly. This command manually copies the language file into the spot where GRUB expects to find it. Without this, your GRUB menu might look broken or simply fail to load the translation correctly.
 
