@@ -300,6 +300,10 @@ System Integrity: Because lv_root (30GB) and lv_home (800GB) are separate volume
 
 Safety: If you accidentally download a file that is too large or fill up your home directory with media, the system will not crash. The operating system on the root partition will continue to function perfectly because it has its own dedicated space.
 
+activation: 
+modprobe dm_mod
+vgscan 
+vgchange -ay
 
 
 
