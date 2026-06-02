@@ -56,10 +56,10 @@ mkdir -p /mnt/boot/EFI
 mount /dev/sda1 /mnt/boot/EFI
 
 # Install Base
-pacstrap -K /mnt base linux linux-firmware
+pacstrap -K /mnt base linux linux-firmware networkmanager
 
 # Generate fstab
-genfstab -U -p /mnt >> /mnt/etc/fstab
+genfstab -U /mnt >> /mnt/etc/fstab
 
 Phase 4: System Configuration (Chroot)
 # Enter System
