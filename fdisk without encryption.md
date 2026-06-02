@@ -67,7 +67,7 @@ arch-chroot /mnt
 passwd
 useradd -m -g users -G wheel [username]
 passwd [username]
-
+visudo (in the file uncomment %wheel ALL (ALL:ALL) ALL)
 # Install essential packages
 pacman -S base-devel dosfstools grub efibootmgr gnome gnome-tweaks lvm2 mtools nano networkmanager os-prober sudo linux-headers linux-lts linux-lts-headers
 
