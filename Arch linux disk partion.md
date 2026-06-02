@@ -66,25 +66,11 @@ pacman -Syy
 	echo "en_US.UTF-8 UTF-8" | sudo tee -a /etc/locale.gen
 	echo "LANG=en_US.UTF-8" > /etc/locale.conf
 	echo "arch" > /etc/hostname
-    (- `timedatectl set-timezone <Region/City>`)
-        
-    - `hwclock --systohc`
-        
-    - `vim /etc/locale.gen` (uncomment `en_US.UTF-8 UTF-8`)
-        
-    - `echo "LANG=en_US.UTF-8" > /etc/locale.conf`
-        
-2. **Network & Security:**
-    
-    - Set Hostname: vim /etc/hostname (`echo "arch" > /etc/hostname`)
-        set host: vim /etc/host (no need to edit it should be there)
-    - Set Password: `passwd`
-        
-    - Create User: `useradd -m <username>` && `passwd <username>`
-		usermod -aG wheel,audio,video,optical,storage,input to
-		visudo (to edit the file)
-		uncomment to allow members of group wheel to execute any command
-		%wheel ALL (ALL:ALL) ALL
+	passwd
+	usermod -aG wheel,audio,video,optical,storage,input to
+	passwd to
+	EDITOR=nano visudo (uncomment to allow members of group wheel to execute any command: #%wheel ALL (ALL:ALL) ALL )
+   
 ### Phase 5: Optimization & Bootloader
 
 1. **ZRAM Setup:**
