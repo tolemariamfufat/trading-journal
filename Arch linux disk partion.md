@@ -13,13 +13,13 @@ reflector -c Kenya -a 6 --sort rate --save /etc/pacman.d/mirrorlist
 cfdisk 
 pacman -Syy
 
-1. **Partitioning:** `cfdisk (Select **GPT** label).
+1. **Partitioning:** `cfdisk /dev/sda (Select **GPT** label).
     
     - `sda1`: 512Mb (EFI System)
         
     - `sda2`: Remainder (Linux Filesystem)
    lsblk
-1. **Formatting:**
+2. **Formatting:**
     
     - `mkfs.fat -F 32 /dev/sda1`
         
