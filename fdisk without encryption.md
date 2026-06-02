@@ -52,7 +52,7 @@ mkdir -p /mnt/home
 mount /dev/volgroup0/lv_home /mnt/home
 
 # Mount EFI
-mkdir /mnt/boot/EFI
+mkdir -p /mnt/boot/EFI
 mount /dev/nvme0n1p1 /mnt/boot/EFI
 
 # Install Base
