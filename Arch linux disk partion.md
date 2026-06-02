@@ -114,8 +114,19 @@ pacman -Syy
     - `systemctl enable NetworkManager`
         
     - `systemctl enable sddm`
-        
-3. **AUR Helper (Yay):**
+    # 1. Ensure the config is created first
+sudo snapper -c root create-config /
+# 2. Change ownership to the group 'users'
+sudo chown -R :users /.snapshots
+# 3. Adjust permissions so the group can read/execute (750)
+sudo chmod 750 /.snapshots
+
+
+
+
+
+
+1. **AUR Helper (Yay):**
     
     - As normal user:
         
