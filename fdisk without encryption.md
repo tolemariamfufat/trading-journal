@@ -79,7 +79,7 @@ pacman -S base-devel dosfstools grub efibootmgr gnome gnome-tweaks lvm2 mtools n
 nano /etc/mkinitcpio.conf
 
 # Generate images
-mkinitcpio -p linux (linux-lts)
+mkinitcpio -P
 
 Phase 5: Bootloader & Finalization
 # Install GRUB
