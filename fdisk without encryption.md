@@ -44,11 +44,11 @@ Phase 3: Mounting & Installation
 sudo mount /dev/volgroup0/lv_root /mnt
 
 # Mount Boot
-mkdir /mnt/boot
-mount /dev/nvme0n1p2 /mnt/boot
+mkdir -p /mnt/boot
+mount /dev/sda1 /mnt/boot
 
 # Mount Home
-mkdir /mnt/home
+mkdir -p /mnt/home
 mount /dev/volgroup0/lv_home /mnt/home
 
 # Mount EFI
