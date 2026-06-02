@@ -74,6 +74,8 @@ pacman -Syy
 
 	pacman -S base-devel btrfs-progs grub efibootmgr networkmanager grub-btrfs snapper plasma-meta konsole dolphin pipewire pipewire-pulse wireplumber sof-firmware pipewire-jack also-utils firefox
 
+	sudo /etc/mkinitcpio.conf (add 'btrfs' )
+	MODULES=(btrfs)
 ### Phase 5: Optimization & Bootloader
 
 1. **ZRAM Setup:**
