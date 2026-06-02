@@ -11,6 +11,7 @@ setfont ter-124b
 timedatectl set-ntp true
 reflector -c Kenya -a 6 --sort rate --save /etc/pacman.d/mirrorlist
 cfdisk 
+pacman -Syy
 
 1. **Partitioning:** `cfdisk (Select **GPT** label).
     
