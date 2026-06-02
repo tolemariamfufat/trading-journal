@@ -27,8 +27,8 @@ sudo mkfs.ext4 /dev/sda2
 # Initialize LVM
 sudo pvcreate /dev/sda3
 sudo vgcreate volgroup0 /dev/sda3
-lvcreate -L 30GB volgroup0 -n lv_root
-lvcreate -L 800GB volgroup0 -n lv_home
+sudo lvcreate -L 30GB volgroup0 -n lv_root
+sudo lvcreate -L 657GB volgroup0 -n lv_home
 
 # Activate LVM
 modprobe dm_mod
@@ -36,12 +36,12 @@ vgscan
 vgchange -ay
 
 # Format Logical Volumes
-mkfs.ext4 /dev/volgroup0/lv_root
-mkfs.ext4 /dev/volgroup0/lv_home
+sudo mkfs.ext4 /dev/volgroup0/lv_root
+sudo mkfs.ext4 /dev/volgroup0/lv_home
 
 Phase 3: Mounting & Installation
 # Mount Root
-mount /dev/volgroup0/lv_root /mnt
+sudo mount /dev/volgroup0/lv_root /mnt
 
 # Mount Boot
 mkdir /mnt/boot
