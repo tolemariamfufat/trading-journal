@@ -61,8 +61,9 @@ pacman -Syy
 ### Phase 4: System Configuration
 
 1. **Time & Locale:**
-    
-    - `timedatectl set-timezone <Region/City>`
+    sudo ln -sf /usr/share/zoneinfo/Africa/Addis_Ababa /etc/localtime
+	wclock --systohc
+    (- `timedatectl set-timezone <Region/City>`)
         
     - `hwclock --systohc`
         
