@@ -73,9 +73,16 @@ passwd
 useradd -m -g users -G wheel [username]
 passwd [username]
 visudo (in the file uncomment %wheel ALL (ALL:ALL) ALL)
+
+grub-install --target=x86_64-efi --efi-directory=/boot/EFI --bootloader-id=GRUB
+grub-mkconfig -o /boot/grub/grub.cfg
 # Install essential packages
 pacman -S base-devel dosfstools grub efibootmgr gnome gnome-tweaks lvm2 mtools nano networkmanager os-prober sudo linux-headers linux-lts linux-lts-headers
 
+
+grub-install --target=x86_64-efi --efi-directory=/boot/EFI --bootloader-id=GRUB
+
+grub-mkconfig -o /boot/grub/grub.cfg
 # Configure Hooks (Edit /etc/mkinitcpio.conf)
 # Find the HOOKS line and ensure it contains:
 # HOOKS=(base udev autodetect modconf kms keyboard keymap consolefont block lvm2 filesystems fsck)
@@ -84,13 +91,7 @@ nano /etc/mkinitcpio.conf
 # Generate images
 mkinitcpio -P
 
-Phase 5: Bootloader & Finalization
-# Install GRUB
-grub-install --target=x86_64-efi --bootloader-id=grub_uefi --recheck
-
-# Generate Config
-grub-mkconfig -o /boot/grub/grub.cfg
-
+Phase 5: Finalization
 # Enable Services
 systemctl enable gdm
 systemctl enable NetworkManager
