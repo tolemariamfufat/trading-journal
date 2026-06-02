@@ -127,7 +127,16 @@ systemctl enable snapper-cleanup.timer
 GRUB_PRELOAD_MODULES="part-gpt part-msdos btrfs"
 
 *After reboot use commands of btrfs*
-
+# 1. Initialize Snapper
+sudo snapper -c root create-config /
+# 2. Verify subvolume creation
+sudo btrfs subvolume list /
+# 3. Verify the configuration settings
+sudo snapper -c root get-config
+# 4. Create your first "Baseline" snapshot
+sudo snapper -c root create -d "fresh-install"
+# 5. List to confirm it exists
+sudo snapper -c root list
 1. **AUR Helper (Yay):**
     
     - As normal user:
