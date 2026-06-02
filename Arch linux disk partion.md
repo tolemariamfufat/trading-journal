@@ -56,7 +56,7 @@ pacman -Syy
 ### Phase 3: System Installation
 	reflector -c Kenya -a 6 --sort rate --save /etc/pacman.d/mirrorlist
 	cat /etc/pacman.d/mirrorlist
-			1. **Base Install:** `pacstrap -K /mnt base base-devl linux linux-headers sudo grub linux-firmware sudo 
+			1. **Base Install:** `pacstrap -K /mnt base base-devl linux linux-headers sudo grub linux-firmware 
 	1. **Generate FSTAB:** `genfstab -U /mnt >> /mnt/etc/fstab`  
     2. **Enter Chroot:** `arch-chroot /mnt`
 ### Phase 4: System Configuration
@@ -71,7 +71,9 @@ pacman -Syy
 	usermod -aG wheel,audio,video,optical,storage,input to
 	passwd to
 	EDITOR=nano visudo (uncomment to allow members of group wheel to execute any command: #%wheel ALL (ALL:ALL) ALL )
-   
+
+	pacman -S base-devel btrfs-progs grub efibootmgr networkmanager grub-btrfs snapper plasma-meta konsole dolphin pipewire pipewire-pulse wireplumber sof-firmware pipewire-jack also-utils firefox
+
 ### Phase 5: Optimization & Bootloader
 
 1. **ZRAM Setup:**
