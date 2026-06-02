@@ -76,6 +76,7 @@ pacman -Syy
 
 	sudo /etc/mkinitcpio.conf (add 'btrfs' )
 	MODULES=(btrfs)
+	mkinitcpio -P linux
 ### Phase 5: Optimization & Bootloader
 
 1. **ZRAM Setup:**
