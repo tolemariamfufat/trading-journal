@@ -1,13 +1,10 @@
 **EDITOR=nano visudo**
 
 Phase 1: Disk Preparation (fdisk)
-sudo fdisk -l
-sudo fdisk /dev/sda
+fdisk -l
+Initialize disk: fdisk /dev/sda
 lsblk
-sudo mkfs.fat -F 32 /dev/sda1
-sudo mkfs.ext4 /dev/sda2
 
-Initialize disk: fdisk /dev/nvme0n1
 
 Create GPT table: g
 
@@ -25,12 +22,11 @@ Write changes: w
 
 Phase 2: Filesystem & LVM Foundation
 # Format partitions
-mkfs.fat -F 32 /dev/nvme0n1p1
-mkfs.ext4 /dev/nvme0n1p2
-
+sudo mkfs.fat -F 32 /dev/sda1
+sudo mkfs.ext4 /dev/sda2
 # Initialize LVM
-pvcreate /dev/nvme0n1p3
-vgcreate volgroup0 /dev/nvme0n1p3
+sudo pvcreate /dev/sda3
+sudo vgcreate volgroup0 /dev/sda3
 lvcreate -L 30GB volgroup0 -n lv_root
 lvcreate -L 800GB volgroup0 -n lv_home
 
