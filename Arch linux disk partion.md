@@ -141,6 +141,32 @@ sudo snapper -c root get-config
 sudo snapper -c root create -d "fresh-install"
 # 5. List to confirm it exists
 sudo snapper -c root list
+
+*swap file creation*
+# 1. Create the file (It must be empty first)
+sudo touch /swapfile
+
+# 2. Disable Copy-on-Write (Crucial for Btrfs)
+sudo chattr +C /swapfile
+
+# 3. Set the file to immutable (Optional but recommended)
+sudo lsattr /swapfile # verify the 'C' attribute is there
+sudo chattr +i /swapfile # (Only do this after the swap is setup)
+
+# 4. Allocate the space (Using fallocate is better than dd)
+sudo fallocate -l 4G /swapfile
+
+# 5. Set correct permissions
+sudo chmod 600 /swapfile
+
+# 6. Format as swap
+sudo mkswap /swapfile
+
+# 7. Enable it
+sudo swapon /swapfile
+
+sudo nano /etc/fstab
+/swapfile none swap defaults 0 0
 1. **AUR Helper (Yay):**
     
     - As normal user:
