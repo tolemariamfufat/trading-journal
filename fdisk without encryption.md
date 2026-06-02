@@ -1,3 +1,5 @@
+**EDITOR=nano visudo**
+
 Phase 1: Disk Preparation (fdisk)
 Initialize disk: fdisk /dev/nvme0n1
 
