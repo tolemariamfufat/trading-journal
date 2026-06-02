@@ -121,10 +121,12 @@ sudo chown -R :users /.snapshots
 # 3. Adjust permissions so the group can read/execute (750)
 sudo chmod 750 /.snapshots
 
+systemctl enable snapper-timeline.timer
+systemctl enable snapper-cleanup.timer
+# Correct line in /etc/default/grub
+GRUB_PRELOAD_MODULES="part-gpt part-msdos btrfs"
 
-
-
-
+*After reboot use commands of btrfs*
 
 1. **AUR Helper (Yay):**
     
