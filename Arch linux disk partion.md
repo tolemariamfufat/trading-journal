@@ -126,6 +126,10 @@ systemctl enable snapper-cleanup.timer
 # Correct line in /etc/default/grub
 GRUB_PRELOAD_MODULES="part-gpt part-msdos btrfs"
 
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+sudo systemctl enable --now grub-btrfs.path
+sudo systemctl enable --now grub-btrfsd.service
+
 *After reboot use commands of btrfs*
 # 1. Initialize Snapper
 sudo snapper -c root create-config /
