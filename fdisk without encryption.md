@@ -1,6 +1,12 @@
 **EDITOR=nano visudo**
 
 Phase 1: Disk Preparation (fdisk)
+sudo fdisk -l
+sudo fdisk /dev/sda
+lsblk
+sudo mkfs.fat -F 32 /dev/sda1
+sudo mkfs.ext4 /dev/sda2
+
 Initialize disk: fdisk /dev/nvme0n1
 
 Create GPT table: g
