@@ -64,6 +64,9 @@ genfstab -U /mnt >> /mnt/etc/fstab
 Phase 4: System Configuration (Chroot)
 # Enter System
 arch-chroot /mnt
+timedatectl set-timezone US/EASTERN
+nano /etc/locale.genlocale-gen
+echo "LANG=en_US.UTF-8" > /etc/locale.conf
 
 # User/Pass setup
 passwd
