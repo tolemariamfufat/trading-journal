@@ -54,7 +54,8 @@ pacman -Syy
     mount /dev/sda1 /mnt/boot
     ```
 ### Phase 3: System Installation
-
+	reflector -c Kenya -a 6 --sort rate --save /etc/pacman.d/mirrorlist
+	cat /etc/pacman.d/mirrorlist
 	1. **Base Install:** `pacstrap -K /mnt base linux linux-firmware sudo vim`
 	2. **Generate FSTAB:** `genfstab -U /mnt >> /mnt/etc/fstab`  
     3. **Enter Chroot:** `arch-chroot /mnt`
