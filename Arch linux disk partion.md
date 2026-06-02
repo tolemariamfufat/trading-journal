@@ -63,6 +63,8 @@ pacman -Syy
 1. **Time & Locale:**
     sudo ln -sf /usr/share/zoneinfo/Africa/Addis_Ababa /etc/localtime
 	wclock --systohc
+	echo "en_US.UTF-8 UTF-8" | sudo tee -a /etc/locale.gen
+	echo "LANG=en_US.UTF-8" > /etc/locale.conf
     (- `timedatectl set-timezone <Region/City>`)
         
     - `hwclock --systohc`
