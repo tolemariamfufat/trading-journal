@@ -5,7 +5,7 @@ station wlan0 scan
 station wlan0 get-networks
 station wlan0 connect [Your Network]
 exit
-png -c 3 archlinux.org
+ping -c 3 archlinux.org
 
 setfont ter-124b
 timedatectl set-ntp true
