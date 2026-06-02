@@ -53,10 +53,10 @@ mount /dev/volgroup0/lv_home /mnt/home
 
 # Mount EFI
 mkdir -p /mnt/boot/EFI
-mount /dev/nvme0n1p1 /mnt/boot/EFI
+mount /dev/sda1 /mnt/boot/EFI
 
 # Install Base
-pacstrap -i /mnt base linux linux-firmware
+pacstrap -K /mnt base linux linux-firmware
 
 # Generate fstab
 genfstab -U -p /mnt >> /mnt/etc/fstab
