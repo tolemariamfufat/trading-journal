@@ -36,7 +36,7 @@ pacman -Syy
     ```
     btrfs subvolume create /mnt/@
     btrfs subvolume create /mnt/@home
-    btrfs subvolume create /mnt/@snapshots
+    btrfs subvolume create /mnt/@swap
     btrfs subvolume create /mnt/@var_log
     ```
     
@@ -45,13 +45,13 @@ pacman -Syy
     Bash
     
     ```
-    umount /mnt
-    mount -o subvol=@,noatime,compress=zstd /dev/sda2 /mnt
-    mkdir -p /mnt/{boot,home,.snapshots,var/log}
-    mount -o subvol=@home,noatime,compress=zstd /dev/sda2 /mnt/home
-    mount -o subvol=@snapshots,noatime,compress=zstd /dev/sda2 /mnt/.snapshots
-    mount -o subvol=@var_log,noatime,compress=zstd /dev/sda2 /mnt/var/log
-    mount /dev/sda1 /mnt/boot
+   umount /mnt  
+mount -o noatime,compress=zstd,subvol=@, /dev/sda2 /mnt  
+mkdir -p /mnt/{boot,home,var/log,swap}  
+mount -o noatime,compress=zstd,subvol=@home /dev/sda2 /mnt/home  
+mount -o noatime,compress=zstd,[subvol=@swap](mailto:subvol%3D@swap) /dev/sda2 /mnt/swap  
+mount -o noatime,compress=zstd,[subvol=@var_log](mailto:subvol%3D@var_log) /dev/sda2 /mnt/var/log  
+mount /dev/sda1 /mnt/boot
     ```
 ### Phase 3: System Installation
 	reflector -c Kenya -a 6 --sort rate --save /etc/pacman.d/mirrorlist
