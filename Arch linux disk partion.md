@@ -49,7 +49,7 @@ pacman -Syy
 mount -o noatime,compress=zstd,subvol=@, /dev/sda2 /mnt  
 mkdir -p /mnt/{boot,home,var/log,swap}  
 mount -o noatime,compress=zstd,space_cache=v2,discard=async,subvol=@home /dev/sda2 /mnt/home  
-mount -o noatime,compress=zstd,[subvol=@swap](mailto:subvol%3D@swap) /dev/sda2 /mnt/swap  
+mount -o noatime,compress=zstd,space_cache=v2,discard=async,subvol=@swap(mailto:subvol%3D@swap) /dev/sda2 /mnt/swap  
 mount -o noatime,compress=zstd,[subvol=@var_log](mailto:subvol%3D@var_log) /dev/sda2 /mnt/var/log  
 mount /dev/sda1 /mnt/boot
     ```
