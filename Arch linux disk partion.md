@@ -68,6 +68,7 @@ pacman -Syy
 	echo "LANG=en_US.UTF-8" > /etc/locale.conf
 	echo "arch" > /etc/hostname
 	passwd
+	useradd -m to
 	usermod -aG wheel,audio,video,optical,storage,input to
 	passwd to
 	EDITOR=nano visudo (uncomment to allow members of group wheel to execute any command: #%wheel ALL (ALL:ALL) ALL )
