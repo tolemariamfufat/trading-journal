@@ -1,8 +1,0 @@
-- The "Venom" Model (2025)Since you asked about newer models, Michael Huddleston recently introduced what he calls the Venom Model (specifically mentioned in April 2025).
-- It combines your SMT logic with a strict 90-minute time window.
-- **The Window** : 08:00 AM – 09:30 AM EST (The "Venom Box").
-- **The Setup** : Mark the High and Low of that 08:00–09:30 AM range.
-- Wait for the 09:30 AM Equity Open.
-- Look for a Liquidity Sweep of that range (e.g., price wicks below the 9:30 low).
-- **Confirm with SMT** : If Nasdaq sweeps the low but S&P 500 doesn't, the reversal is highly likely to be explosive.
-- **Entry** : Look for a Market Structure Shift (MSS) and a Fair Value Gap (FVG) on the 1-minute chart.
