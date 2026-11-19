@@ -1,5 +1,0 @@
-- Being is The experience of happiness.
-- Love is the collapse of separation.
-- Truth is being aware of being aware. 
-- Truth doesn't deny or assert itself, it is still. 
-- All knowledge separated from awareness becomes the ignorance of reality (truth).
