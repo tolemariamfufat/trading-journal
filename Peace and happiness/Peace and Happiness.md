@@ -1,0 +1,5 @@
+- Peace and happiness are the nature of your being
+- You share peace and happiness with everyone and everything
+- The recognition that our minds are Indivisible Inherently Peaceful Consciousness 
+- Each of our minds is the agency or the activity through which consciousness is able to realize a segment of its infinite potential
+- Consciousness looks through each of our finite minds and sees itself as the world, there is only God's face. 
