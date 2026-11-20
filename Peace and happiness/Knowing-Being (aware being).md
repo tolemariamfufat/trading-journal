@@ -1,0 +1,4 @@
+- The substance present in all thinking is knowing. It is the fundamental and infinite. Knowing is vibration and it is energy and it has frequency. Its vibration creates thinking and contents of thinking. 
+- Thought is reduced into thinking. And thinking is reduced to pure knowing. Knowing has no objective qualities. Pure knowing is pure consciousness. 
+- The body is reduced to matter; and matter is reduced to being (is or presence). 
+- Being is identical to a knowing of it. And Knowing is; it is present. 
