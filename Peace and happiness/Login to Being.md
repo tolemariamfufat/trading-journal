@@ -1,0 +1,7 @@
+- Login to being is similar to grounding
+- It is like your body pile of sensations and feelings are linked to being
+- We share our being with everyone and everything
+- So login is like a foot that is connected to the ground (Being)
+- Hand is like knowing that encompasses all knowing-Being
+- So being is like root or base (eternal presence) and awareness is like all encompassing the knowing it. 
+- Head is being aware of being aware
