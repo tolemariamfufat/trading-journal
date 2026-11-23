@@ -1,6 +1,13 @@
 - Feminine is allows the movement of energy through the body it is grounding. It is Earth energy. Feminine is acceptance it allows energy to move cyclically up/down; left/right. It is not the energy of resistance. 
 
 - Masculine energy is fire sign. It burns everything and rises above everything. It is energy of love, unity,. 
+- The Masculine Principle — Fire
+
+The masculine is the principle of presence, consciousness, activation, transformation, and direction. It is symbolically associated with Fire.
+
+Fire represents the quality of being fully present: awake, aware, attentive, and conscious. It illuminates what is before it, brings clarity to what is hidden, and gives direction to movement.
+
+It rises, expands, transforms, and illuminates. Its highest expression is not domination or destruction, but conscious presence, purposeful action, love, and unity.
 ## **1. What different traditions tell us**
 
 ### **A. Taoist philosophy — Yin and Yang**
