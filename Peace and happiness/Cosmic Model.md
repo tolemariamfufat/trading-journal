@@ -1,1 +1,1 @@
-![](../knowing_being_complete_compilation.pdf)
+![](../knowing_being_updated_compilation.pdf)
