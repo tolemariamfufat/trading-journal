@@ -1,0 +1,1 @@
+![](../knowing_being_cosmic_symbolic_framework.pdf)
