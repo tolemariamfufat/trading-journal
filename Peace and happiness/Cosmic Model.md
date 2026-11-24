@@ -1,1 +1,1 @@
-![](../knowing_being_cosmic_symbolic_framework.pdf)
+![](../knowing_being_complete_compilation.pdf)
