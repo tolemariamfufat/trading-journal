@@ -1,1 +1,1 @@
-![](../knowing_being_unified_symbolic_language_compilation.pdf)
+![](../knowing_being_complete_compass_compilation.pdf)
